@@ -1,0 +1,28 @@
+{
+  "AddonUUID": "cd3ba412-66a4-42f4-8abc-65768c5dc606",
+  "AddonVersion": "0.0.16",
+  "DebugPort": 4500,
+  "WebappBaseUrl": "https://app.sandbox.pepperi.com",
+  "DefaultEditor": "main",
+  "Endpoints": [
+    "installation.ts",
+    "api.ts"
+  ],
+  "Editors": [
+    "main"
+  ],
+  "PublishConfig": {
+    "ClientStack": "ng14",
+    "Editors": [
+      {
+        "ParentPackageName": "Resource List ABI",
+        "PackageName": "resource_list_abi",
+        "Description": "Resource List ABI"
+      }
+    ],
+    "Dependencies": {},
+    "CPISide": [
+      "addon-cpi.ts"
+    ]
+  }
+}
