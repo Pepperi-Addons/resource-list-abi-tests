@@ -244,6 +244,13 @@ export class ListContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            SelectionType: "Multi", // "Multi" / "None" / "Single"
         },
         State: {
             ListKey: "accountsBasicView",

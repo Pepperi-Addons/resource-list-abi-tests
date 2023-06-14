@@ -14,14 +14,7 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
 
     listABIDialogRef: MatDialogRef<any, any>
 
-    // nameAgeExistingView | accountsBasicView | accountsMenu | accountsMenuHostingAddonFunc | accountsMenuFull | accountsLineMenu | accountsSearch | accountsSmartSearch
-    // accountsSelectionTypeMulti | accountsSelectionTypeSingle | accountsSelectionTypeNone | accountsSortingAscending | accountsSortingDescending | accountsBasicWithDefaultDraw
-    // accountsPageTypePages | accountsPageTypePages_PageSize | accountsPageTypePages_PageIndex | accountsPageTypePages_PageSizePageIndex
-    // accountsPageTypeScroll | accountsPageTypeScroll_PageIndex | accountsPageTypeScroll_PageSizePageIndex
-    // accountsFull | filtersAccRef2Views
-
     options: { key: string; value: string }[] = [
-        // { key: 'nameAgeExistingView', value: 'NameAge Existing View' }, itemsLineMenuSelectionTypeMulti
         { key: 'itemsBasicView', value: 'Items View - Basic' },
         { key: 'accountsBasicView', value: 'Accounts View - Basic' },
         { key: 'accountsMenu', value: 'Accounts with Menu' },
@@ -69,7 +62,7 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
     }
 
     onClick() {
-
+        // debugger
         const hostObject = {
             listContainer: this[this.chosenListContainer],
             inDialog: true

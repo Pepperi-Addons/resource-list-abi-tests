@@ -42,7 +42,7 @@ router.post('/drawNavigateHome', (req, res) => {
 
 router.post('/menuExecutionGoHome', (req, res) => {
     req.context?.client?.navigateTo({ url: '/HomePage' });
-    req.context?.client?.navigateTo({ url: '' });
+    // req.context?.client?.navigateTo({ url: '' });
     // console.log('req: ', JSON.stringify(req, null, 2));
     // req.context?.client?.openURI({ uri: '' });
 });
