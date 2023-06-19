@@ -42,7 +42,27 @@ router.post('/drawNavigateHome', (req, res) => {
 
 router.post('/menuExecutionGoHome', (req, res) => {
     req.context?.client?.navigateTo({ url: '/HomePage' });
-    // req.context?.client?.navigateTo({ url: '' });
-    // console.log('req: ', JSON.stringify(req, null, 2));
-    // req.context?.client?.openURI({ uri: '' });
+});
+
+router.post('/testDrawGrid', (req, res) => {
+    const data = req.body.Data;
+    const viewBlocks = req.body.ViewBlocks;
+    const grid: {}[] = [];
+    data.forEach(listing => {
+        const itemsValuesByViewBlocksKeys: string[] = [];
+        viewBlocks.forEach(viewBlock => {
+            const fieldID = viewBlock.Configuration.FieldID;
+            itemsValuesByViewBlocksKeys.push(`${fieldID} : ${listing[fieldID]}`)
+        });
+        grid.push(
+            {
+                Name: listing.Key,
+                Email: itemsValuesByViewBlocksKeys,
+                Country: listing.Name,
+                City: 'Test',
+                Type: 'QA'
+            }
+        )
+    })
+    return res.json({ Data: grid })
 });

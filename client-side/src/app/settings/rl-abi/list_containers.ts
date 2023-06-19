@@ -257,6 +257,83 @@ export class ListContainers {
         }
     }
 
+    accountsTestDrawGrid: any = {
+        List: {
+            Key: "accountsTestDrawGrid",
+            Name: "Accounts Test Draw Grid",
+            Resource: "accounts",
+            Views: [
+                {
+                    Key: "Accounts",
+                    Type: "Grid",
+                    Title: "Accounts Test Draw",
+                    Blocks: [
+                        {
+                            Title: "Name",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Name",
+                                Width: 7
+                            },
+                            DrawURL: 'addon-cpi/testDrawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                        {
+                            Title: "Email",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Email",
+                                Width: 15
+                            },
+                            DrawURL: 'addon-cpi/testDrawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                        {
+                            Title: "Country",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Country",
+                                Width: 3
+                            },
+                            DrawURL: 'addon-cpi/testDrawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                        {
+                            Title: "City",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "City",
+                                Width: 2
+                            },
+                            DrawURL: 'addon-cpi/testDrawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                        {
+                            Title: "Type",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Type",
+                                Width: 2
+                            },
+                            DrawURL: 'addon-cpi/testDrawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                    ],
+                },
+            ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            SelectionType: "Multi", // "Multi" / "None" / "Single"
+        },
+        State: {
+            ListKey: "accountsTestDrawGrid",
+        }
+    }
+
     accountsMenu: any = {
         List: {
             Key: "accountsMenu",
@@ -2195,10 +2272,8 @@ export class ListContainers {
                             Configuration: {
                                 Type: "TextBox",
                                 FieldID: "from_account",
-                                Width: 15
+                                Width: 12
                             },
-                            // DrawURL: 'addon-cpi/drawGrid',
-                            // AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Account Name",
@@ -2207,8 +2282,6 @@ export class ListContainers {
                                 FieldID: "from_account.Name",
                                 Width: 6
                             },
-                            // DrawURL: 'addon-cpi/drawGrid',
-                            // AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Account Email",
@@ -2217,8 +2290,6 @@ export class ListContainers {
                                 FieldID: "from_account.Email",
                                 Width: 10
                             },
-                            // DrawURL: 'addon-cpi/drawGrid',
-                            // AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Item",
@@ -2227,8 +2298,6 @@ export class ListContainers {
                                 FieldID: "item",
                                 Width: 5
                             },
-                            // DrawURL: 'addon-cpi/drawGrid',
-                            // AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Price",
@@ -2237,8 +2306,6 @@ export class ListContainers {
                                 FieldID: "price",
                                 Width: 5
                             },
-                            // DrawURL: 'addon-cpi/drawGrid',
-                            // AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Quantity",
@@ -2247,18 +2314,14 @@ export class ListContainers {
                                 FieldID: "quantity",
                                 Width: 6
                             },
-                            // DrawURL: 'addon-cpi/drawGrid',
-                            // AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "In Stock",
                             Configuration: {
                                 Type: "TextBox",
                                 FieldID: "instock",
-                                Width: 4
+                                Width: 2
                             },
-                            // DrawURL: 'addon-cpi/drawGrid',
-                            // AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                     ],
                 },
@@ -2420,11 +2483,10 @@ export class ListContainers {
                 ]
             },
             SelectionType: "Multi", // "Multi" / "None" / "Single"
-            // Sorting: { Ascending: true, FieldID: "item" }
+            Sorting: { Ascending: true, FieldID: "from_account" }
         },
         State: {
             ListKey: "LIST_KEY",
-            Sorting: { Ascending: false, FieldID: "item" },
             PageSize: 7,
             PageIndex: 2,
             PageType: "Scroll", // "Pages" / "Scroll"

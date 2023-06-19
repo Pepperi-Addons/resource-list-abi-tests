@@ -17,6 +17,7 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
     options: { key: string; value: string }[] = [
         { key: 'itemsBasicView', value: 'Items View - Basic' },
         { key: 'accountsBasicView', value: 'Accounts View - Basic' },
+        { key: 'accountsTestDrawGrid', value: 'Accounts - Test Draw Grid' },
         { key: 'accountsMenu', value: 'Accounts with Menu' },
         { key: 'accountsMenuHostingAddonFunc', value: 'Accounts with Menu of Hosting Addon Func' },
         { key: 'accountsMenuFull', value: 'Accounts with Menu - Full' },
