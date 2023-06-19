@@ -40,6 +40,7 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
         { key: 'itemsPageTypeScroll_PageSizePageIndex', value: 'Items with Page Type "Scroll" & Page Size & Page Index' },
         { key: 'accountsFull', value: 'Accounts View - Full' },
         { key: 'filtersAccRef2Views', value: 'FiltersAccRef with 2 Views' },
+        { key: 'referenceAccount2Views', value: 'ReferenceAccount with 2 Views' },
     ]
 
     chosenListContainer: string = 'itemsBasicView'
