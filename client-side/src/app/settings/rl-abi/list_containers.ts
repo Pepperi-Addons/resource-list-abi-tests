@@ -2281,13 +2281,13 @@ export class ListContainers {
     items_PageTypeScroll_PageIndexTopScrollIndex: any = {
         List: {
             Key: "items_PageTypeScroll_PageIndexTopScrollIndex",
-            Name: "Items Page Type 'Scroll' with Page Index & Top Scroll Index",
+            Name: "Items Page Type 'Scroll' with Page Index and Top Scroll Index",
             Resource: "items",
             Views: [
                 {
-                    Key: "Items Scroll Page Index & Top Scroll Index",
+                    Key: "Items Scroll Page Index Top Scroll Index",
                     Type: "Grid",
-                    Title: "Items Scroll Page Index & Top Scroll Index",
+                    Title: "Items Scroll Page Index Top Scroll Index",
                     Blocks: [
                         {
                             Title: "Name",
