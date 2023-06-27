@@ -17,7 +17,10 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
     options: { key: string; value: string }[] = [
         { key: 'items_BasicView', value: 'Items View - Basic' },
         { key: 'accounts_BasicView', value: 'Accounts View - Basic' },
-        { key: 'accounts_TestDrawGrid', value: 'Accounts - Test Draw Grid' },
+        { key: 'accounts_BasicWithDefaultDraw', value: 'Accounts Basic View with Default Draw' },
+        { key: 'accounts_SelectionTypeMulti', value: 'Accounts with Selection Type "Multi"' },
+        { key: 'accounts_SelectionTypeSingle', value: 'Accounts with Selection Type "Single"' },
+        { key: 'accounts_SelectionTypeNone', value: 'Accounts with Selection Type "None"' },
         { key: 'accounts_Menu', value: 'Accounts with Menu' },
         { key: 'accounts_MenuHostingAddonFunc', value: 'Accounts with Menu of Hosting Addon Func' },
         { key: 'accounts_MenuFull', value: 'Accounts with Menu - Full' },
@@ -25,12 +28,8 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
         { key: 'items_LineMenuSelectionTypeMulti', value: 'Items with Line Menu & Selection "Multi"' },
         { key: 'items_Search', value: 'Items with Search' },
         { key: 'accounts_SmartSearch', value: 'Accounts with Smart Search' },
-        { key: 'accounts_SelectionTypeMulti', value: 'Accounts with Selection Type "Multi"' },
-        { key: 'accounts_SelectionTypeSingle', value: 'Accounts with Selection Type "Single"' },
-        { key: 'accounts_SelectionTypeNone', value: 'Accounts with Selection Type "None"' },
         { key: 'accounts_SortingAscending', value: 'Accounts with Sorting - Ascending' },
         { key: 'accounts_SortingDescending', value: 'Accounts with Sorting - Descending' },
-        { key: 'accounts_BasicWithDefaultDraw', value: 'Accounts Basic View with Default Draw' },
         { key: 'items_PageTypePages', value: 'Items with Page Type "Pages"' },
         { key: 'items_PageTypePages_PageSize', value: 'Items with Page Type "Pages" & Page Size' },
         { key: 'items_PageTypePages_PageIndex', value: 'Items with Page Type "Pages" & Page Index' },
@@ -42,9 +41,11 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
         { key: 'items_PageTypeScroll_PageIndex', value: 'Items with Page Type "Scroll" & Page Index' },
         { key: 'items_PageTypeScroll_PageIndexTopScrollIndex', value: 'Items with Page Type "Scroll" & Page Index & Top Scroll Index' },
         { key: 'items_PageTypeScroll_PageSizePageIndex', value: 'Items with Page Type "Scroll" & Page Size & Page Index' },
+        { key: 'items_PageTypeScroll_PageSizePageIndexTopScrollIndex', value: 'Items with Page Type "Scroll" & Page Size & Page Index & Top Scroll Index' },
         { key: 'accounts_Full', value: 'Accounts View - Full' },
-        { key: 'filtersAccRef_2Views', value: 'FiltersAccRef with 2 Views' },
+        { key: 'accounts_TestDrawGrid', value: 'Accounts - Test Draw Grid' },
         { key: 'referenceAccount_2Views', value: 'ReferenceAccount with 2 Views' },
+        { key: 'filtersAccRef_2Views', value: 'FiltersAccRef with 2 Views' },
     ]
 
     chosenListContainer: string = 'itemsBasicView'

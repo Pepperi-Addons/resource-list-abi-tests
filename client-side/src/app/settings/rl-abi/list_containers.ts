@@ -2464,6 +2464,100 @@ export class ListContainers {
         }
     }
 
+    items_PageTypeScroll_PageSizePageIndexTopScrollIndex: any = {
+        List: {
+            Key: "items_PageTypeScroll_PageSizePageIndexTopScrollIndex",
+            Name: "Items Page Type 'Scroll' with Page Size & Page Index & Top Scroll Index",
+            Resource: "items",
+            Views: [
+                {
+                    Key: "Items Scroll Page Size Page Index Top Scroll Index",
+                    Type: "Grid",
+                    Title: "Items Scroll Page Size Page Index Top Scroll Index",
+                    Blocks: [
+                        {
+                            Title: "Name",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Name",
+                                Width: 7
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "External ID",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "ExternalID",
+                                Width: 4
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Main Category",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "MainCategory",
+                                Width: 4
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Price",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Price",
+                                Width: 2
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Cost Price",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "CostPrice",
+                                Width: 3
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "UPC",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "UPC",
+                                Width: 3
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Description",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "LongDescription",
+                                Width: 15
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                    ],
+                },
+            ],
+        },
+        State: {
+            ListKey: "items_PageTypeScroll_PageSizePageIndexTopScrollIndex",
+            PageType: "Scroll", // "Pages" / "Scroll"
+            PageSize: 10,
+            PageIndex: 2,
+            TopScrollIndex: 6,
+        }
+    }
+
     accounts_Full: any = {
         List: {
             Key: "accounts_Full",
