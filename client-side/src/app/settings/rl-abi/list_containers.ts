@@ -2714,15 +2714,15 @@ export class ListContainers {
                 ]
             },
             SelectionType: "Multi", // "Multi" / "None" / "Single"
-            // Sorting: { Ascending: true, FieldID: "item" }
+            Sorting: { Ascending: true, FieldID: "item" }
         },
         State: {
             ListKey: "accounts_Full",
-            Sorting: { Ascending: false, FieldID: "Name" },
-            PageSize: 7,
+            PageSize: 8,
             PageIndex: 1,
+            TopScrollIndex: 6,
             PageType: "Pages", // "Pages" / "Scroll"
-            //   SearchString: "a"
+            SearchString: "a"
         }
     }
 
