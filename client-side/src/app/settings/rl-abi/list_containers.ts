@@ -2374,7 +2374,7 @@ export class ListContainers {
     items_PageTypeScroll_PageSizePageIndex: any = {
         List: {
             Key: "items_PageTypeScroll_PageSizePageIndex",
-            Name: "Items Page Type 'Scroll' with Page Size & Page Index",
+            Name: "Items Page Type 'Scroll' with Page Size and Page Index",
             Resource: "items",
             Views: [
                 {
@@ -2467,7 +2467,7 @@ export class ListContainers {
     items_PageTypeScroll_PageSizePageIndexTopScrollIndex: any = {
         List: {
             Key: "items_PageTypeScroll_PageSizePageIndexTopScrollIndex",
-            Name: "Items Page Type 'Scroll' with Page Size & Page Index & Top Scroll Index",
+            Name: "Items Page Type 'Scroll' with Page Size, Page Index and Top Scroll Index",
             Resource: "items",
             Views: [
                 {
