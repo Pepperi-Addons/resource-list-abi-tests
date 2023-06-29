@@ -2558,16 +2558,16 @@ export class ListContainers {
         }
     }
 
-    accounts_Full: any = {
+    accounts_full: any = {
         List: {
-            Key: "accounts_Full",
+            Key: "accounts_full",
             Name: "Accounts Full",
             Resource: "accounts",
             Views: [
                 {
-                    Key: "Accounts",
+                    Key: "Accounts full",
                     Type: "Grid",
-                    Title: "Accounts",
+                    Title: "Accounts Full",
                     Blocks: [
                         {
                             Title: "Account Key",
@@ -2714,10 +2714,10 @@ export class ListContainers {
                 ]
             },
             SelectionType: "Multi", // "Multi" / "None" / "Single"
-            Sorting: { Ascending: true, FieldID: "item" }
+            Sorting: { Ascending: true, FieldID: "Name" }
         },
         State: {
-            ListKey: "accounts_Full",
+            ListKey: "accounts_full",
             PageSize: 8,
             PageIndex: 1,
             TopScrollIndex: 6,

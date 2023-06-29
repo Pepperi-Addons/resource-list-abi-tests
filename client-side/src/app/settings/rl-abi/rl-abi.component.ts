@@ -42,13 +42,13 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
         { key: 'items_PageTypeScroll_PageIndexTopScrollIndex', value: 'Items with Page Type "Scroll" & Page Index & Top Scroll Index' },
         { key: 'items_PageTypeScroll_PageSizePageIndex', value: 'Items with Page Type "Scroll" & Page Size & Page Index' },
         { key: 'items_PageTypeScroll_PageSizePageIndexTopScrollIndex', value: 'Items with Page Type "Scroll" & Page Size & Page Index & Top Scroll Index' },
-        { key: 'accounts_Full', value: 'Accounts View - Full' },
+        { key: 'accounts_full', value: 'Accounts View - Full' },
         { key: 'accounts_TestDrawGrid', value: 'Accounts - Test Draw Grid' },
         { key: 'referenceAccount_2Views', value: 'ReferenceAccount with 2 Views' },
         { key: 'filtersAccRef_2Views', value: 'FiltersAccRef with 2 Views' },
     ]
 
-    chosenListContainer: string = 'itemsBasicView'
+    chosenListContainer: string = 'items_BasicView'
 
     constructor(
         private addonBlockService: PepAddonBlockLoaderService,
