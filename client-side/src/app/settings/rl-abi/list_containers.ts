@@ -1381,6 +1381,107 @@ export class ListContainers {
         }
     }
 
+    items_SearchString: any = {
+        List: {
+            Key: "items_SearchString",
+            Name: "Items - Search String",
+            Resource: "items",
+            Views: [
+                {
+                    Key: "Items",
+                    Type: "Grid",
+                    Title: "Items",
+                    Blocks: [
+                        {
+                            Title: "Name",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Name",
+                                Width: 7
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "External ID",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "ExternalID",
+                                Width: 4
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Main Category",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "MainCategory",
+                                Width: 4
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Price",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Price",
+                                Width: 2
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Cost Price",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "CostPrice",
+                                Width: 3
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "UPC",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "UPC",
+                                Width: 3
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Description",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "LongDescription",
+                                Width: 15
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                    ],
+                },
+            ],
+            Search: {
+                Fields: [
+                    {
+                        FieldID: "Name"
+                    },
+                    {
+                        FieldID: "ExternalID"
+                    },
+                ]
+            },
+        },
+        State: {
+            ListKey: "items_SearchString",
+            SearchString: "MaNa"
+        }
+    }
+
     accounts_BasicWithDefaultDraw: any = {
         List: {
             Key: "accounts_BasicWithDefaultDraw",
@@ -2726,6 +2827,179 @@ export class ListContainers {
         }
     }
 
+    items_Full2Views: any = {
+        List: {
+            Key: "items_Full2Views",
+            Name: "Items Full - 2 Views",
+            Resource: "items",
+            Views: [
+                {
+                    Key: "Items First View",
+                    Type: "Grid",
+                    Title: "Items Name Main Category",
+                    Blocks: [
+                        {
+                            Title: "Name",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Name",
+                                Width: 7
+                            },
+                        },
+                        {
+                            Title: "External ID",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "ExternalID",
+                                Width: 4
+                            },
+                        },
+                        {
+                            Title: "Main Category",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "MainCategory",
+                                Width: 4
+                            },
+                        },
+                    ],
+                },
+                {
+                    Key: "Items Second View",
+                    Type: "Grid",
+                    Title: "Items Name Price",
+                    Blocks: [
+                        {
+                            Title: "Name",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Name",
+                                Width: 7
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "External ID",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "ExternalID",
+                                Width: 4
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Price",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Price",
+                                Width: 2
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Cost Price",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "CostPrice",
+                                Width: 3
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "UPC",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "UPC",
+                                Width: 3
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                    ],
+                },
+            ],
+            Menu: {
+                Blocks: [
+                    {
+                        Key: 'test',
+                        Title: 'Test',
+                        DrawURL: 'addon-cpi/drawTest',
+                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        ExecuteURL: 'addon-cpi/menuExecutionTest'
+                    },
+                    {
+                        Key: 'navigateHome',
+                        Title: 'Go To Home Page',
+                        DrawURL: 'addon-cpi/drawNavigateHome',
+                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        ExecuteURL: 'addon-cpi/menuExecutionGoHome'
+                    },
+                    {
+                        Key: 'new',
+                        Title: 'New',
+                        DrawURL: 'addon-cpi/drawNewButtonMenuBlock',
+                        AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3',
+                        ButtonStyleType: "Strong",
+                        ExecuteURL: 'addon-cpi/menuExecution'
+                    },
+                ]
+            },
+            LineMenu: {
+                Blocks: [
+                    {
+                        Key: "delete",
+                        Title: "Delete",
+                        DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
+                        AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3',
+                        ExecuteURL: 'addon-cpi/menuExecution'
+                    },
+                    {
+                        Key: "edit",
+                        Title: "Edit",
+                        DrawURL: 'addon-cpi/drawEditLineMenuBlock',
+                        AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3',
+                        ExecuteURL: 'addon-cpi/menuExecution'
+                    }
+                ]
+            },
+            Search: {
+                Fields: [
+                    {
+                        FieldID: "Name"
+                    },
+                ]
+            },
+            SmartSearch: {
+                Fields: [
+                    {
+                        FieldID: "Name",
+                        Title: "Name",
+                        Type: "String"
+                    },
+                    {
+                        FieldID: "ExternalID",
+                        Title: "External ID",
+                        Type: "String"
+                    },
+                ]
+            },
+            SelectionType: "Single", // "Multi" / "None" / "Single"
+            Sorting: { Ascending: true, FieldID: "Name" }
+        },
+        State: {
+            ListKey: "items_Full2Views",
+            PageSize: 8,
+            PageIndex: 1,
+            TopScrollIndex: 6,
+            PageType: "Pages", // "Pages" / "Scroll"
+            SearchString: "a"
+        }
+    }
+
     filtersAccRef_2Views: any = {
         List: {
             Key: "filtersAccRef_2Views",
@@ -2737,30 +3011,6 @@ export class ListContainers {
                     Type: "Grid",
                     Title: "Additional Indexed Fields",
                     Blocks: [
-                        {
-                            Title: "Account Key",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "from_account",
-                                Width: 12
-                            },
-                        },
-                        {
-                            Title: "Account Name",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "from_account.Name",
-                                Width: 6
-                            },
-                        },
-                        {
-                            Title: "Account Email",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "from_account.Email",
-                                Width: 10
-                            },
-                        },
                         {
                             Title: "Item",
                             Configuration: {
@@ -2791,6 +3041,30 @@ export class ListContainers {
                                 Type: "TextBox",
                                 FieldID: "instock",
                                 Width: 2
+                            },
+                        },
+                        {
+                            Title: "Account Key",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "from_account",
+                                Width: 12
+                            },
+                        },
+                        {
+                            Title: "Account Name",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "from_account.Name",
+                                Width: 6
+                            },
+                        },
+                        {
+                            Title: "Account Email",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "from_account.Email",
+                                Width: 10
                             },
                         },
                     ],
@@ -2981,8 +3255,6 @@ export class ListContainers {
                                 FieldID: "of_account",
                                 Width: 15
                             },
-                            // DrawURL: 'addon-cpi/drawGrid',
-                            // AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Best Seller Item",
@@ -3066,15 +3338,12 @@ export class ListContainers {
                 ]
             },
             SelectionType: "Multi", // Default: "Single" / "Multi" / "None" 
-            // Sorting: { Ascending: true, FieldID: "item" }
         },
         State: {
             ListKey: "referenceAccount_2Views",
-            // Sorting: { Ascending: false, FieldID: "item" },
             PageSize: 7, // Default: 25
             PageIndex: 2, // Default: 1
             PageType: "Scroll", // Default: "Pages" / "Scroll"
-            // SearchString: "a"
         }
     }
 }
