@@ -3346,4 +3346,96 @@ export class ListContainers {
             PageType: "Scroll", // Default: "Pages" / "Scroll"
         }
     }
+
+    accounts_causedErrorInDrawFunc: any = {
+        List: {
+            Key: "accounts_causedErrorInDrawFunc",
+            Name: "Accounts - throw Error due to wrong AddonUUID",
+            Resource: "accounts",
+            Views: [
+                {
+                    Key: "Accounts",
+                    Type: "Grid",
+                    Title: "Accounts",
+                    Blocks: [
+                        {
+                            Title: "Account Key",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Key",
+                                Width: 15
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe'
+                        },
+                        {
+                            Title: "Account Name",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Name",
+                                Width: 6
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe'
+                        },
+                        {
+                            Title: "Account Email",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Email",
+                                Width: 10
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe'
+                        },
+                        {
+                            Title: "Country",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Country",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe'
+                        },
+                        {
+                            Title: "City",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "City",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe'
+                        },
+                        {
+                            Title: "Type",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Type",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe'
+                        },
+                    ],
+                },
+            ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
+        },
+        State: {
+            ListKey: "accounts_causedErrorInDrawFunc",
+        }
+    }
 }
