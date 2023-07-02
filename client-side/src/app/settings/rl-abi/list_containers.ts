@@ -3438,4 +3438,106 @@ export class ListContainers {
             ListKey: "accounts_causedErrorInDrawFunc",
         }
     }
+
+    arraysOfPrimitives: any = {
+        List: {
+            Key: "arraysOfPrimitives",
+            Name: "Arrays Of Primitives - Numbers, Names, Reals (Test Draw Array)",
+            Resource: "ArraysOfPrimitivesAuto",
+            Views: [
+                {
+                    Key: "Arrays Of Primitives",
+                    Type: "Grid",
+                    Title: "Arrays Of Primitives",
+                    Blocks: [
+                        {
+                            Title: "Numbers",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "numbers",
+                                Width: 10
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Names",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "names",
+                                Width: 10
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Reals",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "reals",
+                                Width: 10
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                    ],
+                },
+            ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
+        },
+        State: {
+            ListKey: "arraysOfPrimitives",
+        }
+    }
+
+    containedArray: any = {
+        List: {
+            Key: "containedArray",
+            Name: "Contained Array - Scheme Only Name Age (Test Draw Array)",
+            Resource: "ContainedArray",
+            Views: [
+                {
+                    Key: "Contained Array",
+                    Type: "Grid",
+                    Title: "Contained Array",
+                    Blocks: [
+                        {
+                            Title: "Title",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "title",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Contained Scheme Only Name Age",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "contained_scheme_only_name_age",
+                                Width: 15
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                    ],
+                },
+            ],
+        },
+        State: {
+            ListKey: "containedArray",
+        }
+    }
 }

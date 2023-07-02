@@ -49,6 +49,8 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
         { key: 'referenceAccount_2Views', value: 'ReferenceAccount with 2 Views' },
         { key: 'filtersAccRef_2Views', value: 'FiltersAccRef with 2 Views' },
         { key: 'accounts_causedErrorInDrawFunc', value: 'Accounts - throw Error due to wrong AddonUUID' },
+        { key: 'arraysOfPrimitives', value: 'Arrays Of Primitives - Test Draw Array' },
+        { key: 'containedArray', value: 'Contained Array - Test Draw Array' },
     ]
 
     chosenListContainer: string = 'items_BasicView'
