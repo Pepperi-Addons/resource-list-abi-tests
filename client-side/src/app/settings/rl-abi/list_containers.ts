@@ -3000,6 +3000,116 @@ export class ListContainers {
         }
     }
 
+    referenceAccount_2Views: any = {
+        List: {
+            Key: "referenceAccount_2Views",
+            Name: "Reference Account",
+            Resource: "ReferenceAccountAuto",
+            Views: [
+                {
+                    Key: "reference accout best seller",
+                    Type: "Grid", // "Cards"
+                    Title: "Best Seller",
+                    Blocks: [
+                        {
+                            Title: "Account Key",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "of_account",
+                                Width: 15
+                            },
+                        },
+                        {
+                            Title: "Best Seller Item",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "best_seller_item",
+                                Width: 15
+                            },
+                        },
+                    ],
+                },
+                {
+                    Key: "reference accout max quantity",
+                    Type: "Grid", // "Cards"
+                    Title: "Max Quantity",
+                    Blocks: [
+                        {
+                            Title: "Account Key",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "of_account",
+                                Width: 15
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Max Quantity",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "max_quantity",
+                                Width: 15
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                    ],
+                },
+            ],
+            Menu: {
+                Blocks: [
+                    {
+                        Key: 'recycleBin',
+                        Title: 'Recycle Bin',
+                        DrawURL: 'addon-cpi/drawRecycleBinMenuBlock',
+                        AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3',
+                        ExecuteURL: 'addon-cpi/menuExecution'
+                    },
+                ]
+            },
+            LineMenu: {
+                Blocks: [
+                    {
+                        Key: "delete",
+                        Title: "Delete",
+                        DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
+                        AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3',
+                        ExecuteURL: 'addon-cpi/menuExecution'
+                    },
+                ]
+            },
+            Search: {
+                Fields: [
+                    {
+                        FieldID: "max_quantity"
+                    },
+                ]
+            },
+            SmartSearch: {
+                Fields: [
+                    {
+                        FieldID: "of_account.Name",
+                        Title: "Account Name",
+                        Type: "String"
+                    },
+                    {
+                        FieldID: "of_account",
+                        Title: "Account Key",
+                        Type: "String"
+                    },
+                ]
+            },
+            SelectionType: "Multi", // Default: "Single" / "Multi" / "None" 
+        },
+        State: {
+            ListKey: "referenceAccount_2Views",
+            PageSize: 7, // Default: 25
+            PageIndex: 2, // Default: 1
+            PageType: "Scroll", // Default: "Pages" / "Scroll"
+        }
+    }
+
     filtersAccRef_2Views: any = {
         List: {
             Key: "filtersAccRef_2Views",
@@ -3234,116 +3344,6 @@ export class ListContainers {
             PageSize: 7,
             PageIndex: 2,
             PageType: "Pages", // "Pages" / "Scroll"
-        }
-    }
-
-    referenceAccount_2Views: any = {
-        List: {
-            Key: "referenceAccount_2Views",
-            Name: "Reference Account",
-            Resource: "ReferenceAccountAuto",
-            Views: [
-                {
-                    Key: "reference accout best seller",
-                    Type: "Grid", // "Cards"
-                    Title: "Best Seller",
-                    Blocks: [
-                        {
-                            Title: "Account Key",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "of_account",
-                                Width: 15
-                            },
-                        },
-                        {
-                            Title: "Best Seller Item",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "best_seller_item",
-                                Width: 15
-                            },
-                        },
-                    ],
-                },
-                {
-                    Key: "reference accout max quantity",
-                    Type: "Grid", // "Cards"
-                    Title: "Max Quantity",
-                    Blocks: [
-                        {
-                            Title: "Account Key",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "of_account",
-                                Width: 15
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "Max Quantity",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "max_quantity",
-                                Width: 15
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                    ],
-                },
-            ],
-            Menu: {
-                Blocks: [
-                    {
-                        Key: 'recycleBin',
-                        Title: 'Recycle Bin',
-                        DrawURL: 'addon-cpi/drawRecycleBinMenuBlock',
-                        AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3',
-                        ExecuteURL: 'addon-cpi/menuExecution'
-                    },
-                ]
-            },
-            LineMenu: {
-                Blocks: [
-                    {
-                        Key: "delete",
-                        Title: "Delete",
-                        DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
-                        AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3',
-                        ExecuteURL: 'addon-cpi/menuExecution'
-                    },
-                ]
-            },
-            Search: {
-                Fields: [
-                    {
-                        FieldID: "max_quantity"
-                    },
-                ]
-            },
-            SmartSearch: {
-                Fields: [
-                    {
-                        FieldID: "of_account.Name",
-                        Title: "Account Name",
-                        Type: "String"
-                    },
-                    {
-                        FieldID: "of_account",
-                        Title: "Account Key",
-                        Type: "String"
-                    },
-                ]
-            },
-            SelectionType: "Multi", // Default: "Single" / "Multi" / "None" 
-        },
-        State: {
-            ListKey: "referenceAccount_2Views",
-            PageSize: 7, // Default: 25
-            PageIndex: 2, // Default: 1
-            PageType: "Scroll", // Default: "Pages" / "Scroll"
         }
     }
 
