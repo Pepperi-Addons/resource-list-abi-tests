@@ -338,6 +338,219 @@ export class ListContainers {
             ListKey: "accounts_TestDrawGrid",
         }
     }
+    
+    accounts_SelectionTypeMulti: any = {
+        List: {
+            Key: "accounts_SelectionTypeMulti",
+            Name: "Accounts Selection Type Multi",
+            Resource: "accounts",
+            Views: [
+                {
+                    Key: "Accounts",
+                    Type: "Grid",
+                    Title: "Accounts",
+                    Blocks: [
+                        {
+                            Title: "Account Name",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Name",
+                                Width: 6
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Account Email",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Email",
+                                Width: 10
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Country",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Country",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "City",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "City",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Type",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Type",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                    ],
+                },
+            ],
+            SelectionType: "Multi", // "Multi" / "None" / "Single"
+        },
+        State: {
+            ListKey: "accounts_SelectionTypeMulti",
+        }
+    }
+
+    accounts_SelectionTypeSingle: any = {
+        List: {
+            Key: "accounts_SelectionTypeSingle",
+            Name: "Accounts Selection Type Single",
+            Resource: "accounts",
+            Views: [
+                {
+                    Key: "Accounts",
+                    Type: "Grid",
+                    Title: "Accounts",
+                    Blocks: [
+                        {
+                            Title: "Account Name",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Name",
+                                Width: 6
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Account Email",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Email",
+                                Width: 10
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Country",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Country",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "City",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "City",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Type",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Type",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                    ],
+                },
+            ],
+            SelectionType: "Single", // "Multi" / "None" / "Single"
+        },
+        State: {
+            ListKey: "accounts_SelectionTypeSingle",
+        }
+    }
+
+    accounts_SelectionTypeNone: any = {
+        List: {
+            Key: "accounts_SelectionTypeNone",
+            Name: "Accounts Selection Type None",
+            Resource: "accounts",
+            Views: [
+                {
+                    Key: "Accounts",
+                    Type: "Grid",
+                    Title: "Accounts",
+                    Blocks: [
+                        {
+                            Title: "Account Name",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Name",
+                                Width: 6
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Account Email",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Email",
+                                Width: 10
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Country",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Country",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "City",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "City",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                        {
+                            Title: "Type",
+                            Configuration: {
+                                Type: "TextBox",
+                                FieldID: "Type",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+                        },
+                    ],
+                },
+            ],
+            SelectionType: "None", // "Multi" / "None" / "Single"
+        },
+        State: {
+            ListKey: "accounts_SelectionTypeNone",
+        }
+    }
 
     accounts_Menu: any = {
         List: {
@@ -1023,219 +1236,6 @@ export class ListContainers {
         },
         State: {
             ListKey: "accounts_SmartSearch",
-        }
-    }
-
-    accounts_SelectionTypeMulti: any = {
-        List: {
-            Key: "accounts_SelectionTypeMulti",
-            Name: "Accounts Selection Type Multi",
-            Resource: "accounts",
-            Views: [
-                {
-                    Key: "Accounts",
-                    Type: "Grid",
-                    Title: "Accounts",
-                    Blocks: [
-                        {
-                            Title: "Account Name",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Name",
-                                Width: 6
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "Account Email",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Email",
-                                Width: 10
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "Country",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Country",
-                                Width: 5
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "City",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "City",
-                                Width: 5
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "Type",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Type",
-                                Width: 5
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                    ],
-                },
-            ],
-            SelectionType: "Multi", // "Multi" / "None" / "Single"
-        },
-        State: {
-            ListKey: "accounts_SelectionTypeMulti",
-        }
-    }
-
-    accounts_SelectionTypeSingle: any = {
-        List: {
-            Key: "accounts_SelectionTypeSingle",
-            Name: "Accounts Selection Type Single",
-            Resource: "accounts",
-            Views: [
-                {
-                    Key: "Accounts",
-                    Type: "Grid",
-                    Title: "Accounts",
-                    Blocks: [
-                        {
-                            Title: "Account Name",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Name",
-                                Width: 6
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "Account Email",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Email",
-                                Width: 10
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "Country",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Country",
-                                Width: 5
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "City",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "City",
-                                Width: 5
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "Type",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Type",
-                                Width: 5
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                    ],
-                },
-            ],
-            SelectionType: "Single", // "Multi" / "None" / "Single"
-        },
-        State: {
-            ListKey: "accounts_SelectionTypeSingle",
-        }
-    }
-
-    accounts_SelectionTypeNone: any = {
-        List: {
-            Key: "accounts_SelectionTypeNone",
-            Name: "Accounts Selection Type None",
-            Resource: "accounts",
-            Views: [
-                {
-                    Key: "Accounts",
-                    Type: "Grid",
-                    Title: "Accounts",
-                    Blocks: [
-                        {
-                            Title: "Account Name",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Name",
-                                Width: 6
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "Account Email",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Email",
-                                Width: 10
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "Country",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Country",
-                                Width: 5
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "City",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "City",
-                                Width: 5
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                        {
-                            Title: "Type",
-                            Configuration: {
-                                Type: "TextBox",
-                                FieldID: "Type",
-                                Width: 5
-                            },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
-                        },
-                    ],
-                },
-            ],
-            SelectionType: "None", // "Multi" / "None" / "Single"
-        },
-        State: {
-            ListKey: "accounts_SelectionTypeNone",
         }
     }
 
