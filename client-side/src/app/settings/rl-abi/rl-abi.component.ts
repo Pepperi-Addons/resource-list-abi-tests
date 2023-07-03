@@ -45,7 +45,7 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
         { key: 'items_PageTypeScroll_PageSizePageIndexTopScrollIndex', value: 'Items with Page Type "Scroll" & Page Size & Page Index & Top Scroll Index' },
         { key: 'accounts_full', value: 'Accounts View - Full' },
         { key: 'items_Full2Views', value: 'Items View - Full with 2 Views' },
-        { key: 'accounts_TestDrawGrid', value: 'Accounts - Test Draw Grid' },
+        { key: 'accounts_TestDrawGridRelation', value: 'Accounts - Test Draw Grid Relation' },
         { key: 'referenceAccount_2Views', value: 'ReferenceAccount with 2 Views' },
         { key: 'filtersAccRef_2Views', value: 'FiltersAccRef with 2 Views' },
         { key: 'accounts_causedErrorInDrawFunc', value: 'Accounts - throw Error due to wrong AddonUUID' },
