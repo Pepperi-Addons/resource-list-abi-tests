@@ -1,6 +1,6 @@
 import { DoBootstrap, Injector, NgModule, Type } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
 import { PepAddonService } from '@pepperi-addons/ngx-lib';
 
@@ -20,8 +20,7 @@ import { config } from './app.config';
     ],
     imports: [
         BrowserModule,
-        // BlockModule,
-        // BlockEditorModule,
+        BrowserAnimationsModule,
         SettingsModule,
         TranslateModule.forRoot({
             loader: {
@@ -49,9 +48,6 @@ export class AppModule implements DoBootstrap {
 
     ngDoBootstrap() {
         this.pepAddonService.defineCustomElement(`settings-element-${config.AddonUUID}`, SettingsComponent, this.injector);
-
-        // this.pepAddonService.defineCustomElement(`block-element-${config.AddonUUID}`, BlockComponent, this.injector);
-        // this.pepAddonService.defineCustomElement(`block-editor-element-${config.AddonUUID}`, BlockEditorComponent, this.injector);
     }
 }
 
