@@ -80,7 +80,7 @@ export class ListContainers {
     //     }
     // }
 
-    items_BasicView: any = {
+    items_BasicView: any = { // 1.
         List: {
             Key: "items_BasicView",
             Name: "Items Basic",
@@ -170,7 +170,7 @@ export class ListContainers {
         }
     }
 
-    accounts_BasicView: any = {
+    accounts_BasicView: any = { // 2.
         List: {
             Key: "accounts_BasicView",
             Name: "Accounts Basic",
@@ -262,7 +262,7 @@ export class ListContainers {
         }
     }
 
-    accounts_BasicWithDefaultDraw: any = {
+    accounts_BasicWithDefaultDraw: any = { // 3.
         List: {
             Key: "accounts_BasicWithDefaultDraw",
             Name: "Accounts With Default Draw",
@@ -330,7 +330,7 @@ export class ListContainers {
         }
     }
 
-    accounts_SelectionTypeMulti: any = {
+    accounts_SelectionTypeMulti: any = { // 4.
         List: {
             Key: "accounts_SelectionTypeMulti",
             Name: "Accounts Selection Type Multi",
@@ -401,7 +401,7 @@ export class ListContainers {
         }
     }
 
-    accounts_SelectionTypeSingle: any = {
+    accounts_SelectionTypeSingle: any = { // 5.
         List: {
             Key: "accounts_SelectionTypeSingle",
             Name: "Accounts Selection Type Single",
@@ -472,7 +472,7 @@ export class ListContainers {
         }
     }
 
-    accounts_SelectionTypeNone: any = {
+    accounts_SelectionTypeNone: any = { // 6.
         List: {
             Key: "accounts_SelectionTypeNone",
             Name: "Accounts Selection Type None",
@@ -543,7 +543,7 @@ export class ListContainers {
         }
     }
 
-    accounts_Menu: any = {
+    accounts_Menu: any = { // 7.
         List: {
             Key: "accounts_Menu",
             Name: "Accounts With Menu",
@@ -646,7 +646,7 @@ export class ListContainers {
         }
     }
 
-    accounts_MenuHostingAddonFunc: any = {
+    accounts_MenuHostingAddonFunc: any = { // 8.
         List: {
             Key: "accounts_MenuHostingAddonFunc",
             Name: "Accounts Menu With Hosting Addon functionality",
@@ -734,7 +734,7 @@ export class ListContainers {
         }
     }
 
-    accounts_MenuFull: any = {
+    accounts_MenuFull: any = { // 9.
         List: {
             Key: "accounts_MenuFull",
             Name: "Accounts With Menu Full",
@@ -851,7 +851,7 @@ export class ListContainers {
         }
     }
 
-    accounts_LineMenu: any = {
+    accounts_LineMenu: any = { // 10.
         List: {
             Key: "accounts_LineMenu",
             Name: "Accounts With Line Menu",
@@ -939,7 +939,7 @@ export class ListContainers {
         }
     }
 
-    items_LineMenuSelectionTypeMulti: any = {
+    items_LineMenuSelectionTypeMulti: any = { // 11.
         List: {
             Key: "items_LineMenuSelectionTypeMulti",
             Name: "Items with Line Menu (Selection Type 'Multi')",
@@ -1048,7 +1048,7 @@ export class ListContainers {
         }
     }
 
-    items_Search: any = {
+    items_Search: any = { // 12.
         List: {
             Key: "items_Search",
             Name: "Items With Search (Name, Category, Description)",
@@ -1151,7 +1151,7 @@ export class ListContainers {
         }
     }
 
-    accounts_SmartSearch: any = {
+    accounts_SmartSearch: any = { // 13.
         List: {
             Key: "accounts_SmartSearch",
             Name: "Accounts With Smart Search (Name)",
@@ -1230,7 +1230,7 @@ export class ListContainers {
         }
     }
 
-    accounts_SortingAscending: any = {
+    accounts_SortingAscending: any = { // 14.
         List: {
             Key: "accounts_SortingAscending",
             Name: "Accounts Sorting by Name Acsending",
@@ -1301,7 +1301,7 @@ export class ListContainers {
         }
     }
 
-    accounts_SortingDescending: any = {
+    accounts_SortingDescending: any = { // 15.
         List: {
             Key: "accounts_SortingDescending",
             Name: "Accounts Sorting by Name Decsending",
@@ -1372,7 +1372,7 @@ export class ListContainers {
         }
     }
 
-    items_SearchString: any = {
+    items_SearchString: any = { // 16.
         List: {
             Key: "items_SearchString",
             Name: "Items - Search String",
@@ -1473,16 +1473,16 @@ export class ListContainers {
         }
     }
 
-    items_PageTypePages: any = {
+    items_PageTypePages: any = { // 17.
         List: {
             Key: "items_PageTypePages",
             Name: "Items Page Type 'Pages'",
             Resource: "items",
             Views: [
                 {
-                    Key: "Items Page Type 'Pages'",
+                    Key: "Items Page Type Pages",
                     Type: "Grid",
-                    Title: "Items Page Type 'Pages'",
+                    Title: "Items Page Type Pages",
                     Blocks: [
                         {
                             Title: "Name",
@@ -1564,7 +1564,7 @@ export class ListContainers {
         }
     }
 
-    items_PageTypePages_PageSize: any = {
+    items_PageTypePages_PageSize: any = { // 18.
         List: {
             Key: "items_PageTypePages_PageSize",
             Name: "Items Page Type 'Pages' with Page Size",
@@ -1656,7 +1656,7 @@ export class ListContainers {
         }
     }
 
-    items_PageTypePages_PageIndex: any = {
+    items_PageTypePages_PageIndex: any = { // 19.
         List: {
             Key: "items_PageTypePages_PageIndex",
             Name: "Items Page Type 'Pages' with Page Index",
@@ -1748,7 +1748,7 @@ export class ListContainers {
         }
     }
 
-    items_PageTypePages_TopScrollIndex: any = {
+    items_PageTypePages_TopScrollIndex: any = { // 20.
         List: {
             Key: "items_PageTypePages_TopScrollIndex",
             Name: "Items Page Type 'Pages' with Top Scroll Index",
@@ -1840,7 +1840,7 @@ export class ListContainers {
         }
     }
 
-    items_PageTypePages_PageSizePageIndex: any = {
+    items_PageTypePages_PageSizePageIndex: any = { // 21.
         List: {
             Key: "items_PageTypePages_PageSizePageIndex",
             Name: "Items Page Type 'Pages' with Page Size & Page Index",
@@ -1933,7 +1933,7 @@ export class ListContainers {
         }
     }
 
-    items_PageTypePages_PageSizePageIndexTopScrollIndex: any = {
+    items_PageTypePages_PageSizePageIndexTopScrollIndex: any = { // 22.
         List: {
             Key: "items_PageTypePages_PageSizePageIndexTopScrollIndex",
             Name: "Items Page Type 'Pages' with Page Size, Page Index and Top Scroll Index",
@@ -2027,16 +2027,16 @@ export class ListContainers {
         }
     }
 
-    items_PageTypeScroll: any = {
+    items_PageTypeScroll: any = { // 23.
         List: {
             Key: "items_PageTypeScroll",
             Name: "Items Page Type 'Scroll'",
             Resource: "items",
             Views: [
                 {
-                    Key: "Items Page Type 'Scroll'",
+                    Key: "Items Page Type Scroll",
                     Type: "Grid",
-                    Title: "Items Page Type 'Scroll'",
+                    Title: "Items Page Type Scroll",
                     Blocks: [
                         {
                             Title: "Name",
@@ -2118,7 +2118,7 @@ export class ListContainers {
         }
     }
 
-    items_PageTypeScroll_TopScrollIndex: any = {
+    items_PageTypeScroll_TopScrollIndex: any = { // 24.
         List: {
             Key: "items_PageTypeScroll_TopScrollIndex",
             Name: "Items: Page Type 'Scroll' with Top Scroll Index",
@@ -2210,7 +2210,7 @@ export class ListContainers {
         }
     }
 
-    items_PageTypeScroll_PageIndex: any = {
+    items_PageTypeScroll_PageIndex: any = { // 25.
         List: {
             Key: "items_PageTypeScroll_PageIndex",
             Name: "Items Page Type 'Scroll' with Page Index",
@@ -2302,7 +2302,7 @@ export class ListContainers {
         }
     }
 
-    items_PageTypeScroll_PageIndexTopScrollIndex: any = {
+    items_PageTypeScroll_PageIndexTopScrollIndex: any = { // 26.
         List: {
             Key: "items_PageTypeScroll_PageIndexTopScrollIndex",
             Name: "Items Page Type 'Scroll' with Page Index and Top Scroll Index",
@@ -2395,7 +2395,7 @@ export class ListContainers {
         }
     }
 
-    items_PageTypeScroll_PageSizePageIndex: any = {
+    items_PageTypeScroll_PageSizePageIndex: any = { // 27.
         List: {
             Key: "items_PageTypeScroll_PageSizePageIndex",
             Name: "Items Page Type 'Scroll' with Page Size and Page Index",
@@ -2488,7 +2488,7 @@ export class ListContainers {
         }
     }
 
-    items_PageTypeScroll_PageSizePageIndexTopScrollIndex: any = {
+    items_PageTypeScroll_PageSizePageIndexTopScrollIndex: any = { // 28.
         List: {
             Key: "items_PageTypeScroll_PageSizePageIndexTopScrollIndex",
             Name: "Items Page Type 'Scroll' with Page Size, Page Index and Top Scroll Index",
@@ -2582,7 +2582,7 @@ export class ListContainers {
         }
     }
 
-    accounts_full: any = {
+    accounts_full: any = { // 29.
         List: {
             Key: "accounts_full",
             Name: "Accounts Full",
@@ -2750,7 +2750,7 @@ export class ListContainers {
         }
     }
 
-    items_Full2Views: any = {
+    items_Full2Views: any = { // 30.
         List: {
             Key: "items_Full2Views",
             Name: "Items Full - 2 Views",
@@ -2923,7 +2923,7 @@ export class ListContainers {
         }
     }
 
-    accounts_TestDrawGridRelation: any = {
+    accounts_TestDrawGridRelation: any = { // 31.
         List: {
             Key: "accounts_TestDrawGridRelation",
             Name: "Accounts Test Draw Grid Relation",
@@ -3000,7 +3000,7 @@ export class ListContainers {
         }
     }
 
-    referenceAccount_2Views: any = {
+    referenceAccount_2Views: any = { // 32.
         List: {
             Key: "referenceAccount_2Views",
             Name: "Reference Account",
@@ -3110,7 +3110,7 @@ export class ListContainers {
         }
     }
 
-    filtersAccRef_2Views: any = {
+    filtersAccRef_2Views: any = { // 33.
         List: {
             Key: "filtersAccRef_2Views",
             Name: "Filters Acc Ref ABI View",
@@ -3347,7 +3347,7 @@ export class ListContainers {
         }
     }
 
-    accounts_causedErrorInDrawFunc: any = {
+    accounts_causedErrorInDrawFunc: any = { // 34.
         List: {
             Key: "accounts_causedErrorInDrawFunc",
             Name: "Accounts - throw Error due to wrong AddonUUID",
@@ -3439,7 +3439,7 @@ export class ListContainers {
         }
     }
 
-    arraysOfPrimitives: any = {
+    arraysOfPrimitives: any = { // 35.
         List: {
             Key: "arraysOfPrimitives",
             Name: "Arrays Of Primitives - Numbers, Names, Reals (Test Draw Array)",
@@ -3501,7 +3501,7 @@ export class ListContainers {
         }
     }
 
-    containedArray: any = {
+    containedArray: any = { // 36.
         List: {
             Key: "containedArray",
             Name: "Contained Array - Scheme Only Name Age (Test Draw Array)",
