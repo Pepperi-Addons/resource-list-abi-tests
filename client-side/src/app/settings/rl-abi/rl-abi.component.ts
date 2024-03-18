@@ -75,6 +75,7 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
 
     onClick() {
         // debugger
+        // alert("Hello! I am an alert box!!");
         const hostObject = {
             listContainer: this[this.chosenListContainer],
             inDialog: true
@@ -89,16 +90,18 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
                         //debugger;
                         console.log('DONE CLICKED!');
                         console.info('event.data: ', JSON.stringify(event.data, null, 2));
-                        // this.listABIDialogRef.close();
+                        alert(JSON.stringify(event.data, null, 2));
+                        // this.listABIDialogRef.close(event.data);
                         break;
                     case 'on-cancel':
                         console.log('CANCEL CLICKED!');
+                        this.listABIDialogRef.close();
                         break;
                     default:
                         break;
                 }
-                this.listABIDialogRef.close();
             }
         })
+        // alert(JSON.stringify(this.listABIDialogRef, null, 2))
     }
 }

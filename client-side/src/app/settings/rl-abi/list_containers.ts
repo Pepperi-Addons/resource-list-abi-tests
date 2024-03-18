@@ -3540,4 +3540,6 @@ export class ListContainers {
             ListKey: "containedArray",
         }
     }
+
+    // https://pepperi.atlassian.net/browse/DI-24421 - to create a container 37 of IndexedFieldsAuto
 }
