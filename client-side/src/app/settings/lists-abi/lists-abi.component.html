@@ -1,0 +1,14 @@
+<pep-select 
+    [value]="chosenListContainer" 
+    label="Select List Data" 
+    type="select" 
+    [options]="options"
+    (valueChange)="onOptionSelection($event)" 
+></pep-select>
+<pep-button 
+    class="pep-spacing-element" 
+    [sizeType]="'md'" 
+    value="open ABI" 
+    [styleType]="'strong'"
+    (buttonClick)="onClick()"
+></pep-button>

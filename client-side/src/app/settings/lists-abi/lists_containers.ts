@@ -79,12 +79,12 @@ export class ListContainers {
     //         ListKey: "30ff749d-0ed1-4278-b08a-88be21ecdcb1",
     //     }
     // }
-    
+
     items_BasicView: any = { // 1.
         List: {
             Key: "items_BasicView",
             Name: "Items Basic",
-            Resource: "items",
+            Resource: {Name: "items", AddonUUID: ""},
             Views: [
                 {
                     Key: "Items",
@@ -94,81 +94,87 @@ export class ListContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_BasicView",
         }
     }
+
     accounts_BasicView: any = { // 2.
         List: {
             Key: "accounts_BasicView",
@@ -187,8 +193,7 @@ export class ListContainers {
                                 FieldID: "Key",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Account Name",
@@ -197,8 +202,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 6
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Account Email",
@@ -207,8 +211,7 @@ export class ListContainers {
                                 FieldID: "Email",
                                 Width: 10
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Country",
@@ -217,8 +220,7 @@ export class ListContainers {
                                 FieldID: "Country",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "City",
@@ -227,8 +229,7 @@ export class ListContainers {
                                 FieldID: "City",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Type",
@@ -237,8 +238,7 @@ export class ListContainers {
                                 FieldID: "Type",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -260,6 +260,7 @@ export class ListContainers {
             ListKey: "accounts_BasicView",
         }
     }
+
     accounts_BasicWithDefaultDraw: any = { // 3.
         List: {
             Key: "accounts_BasicWithDefaultDraw",
@@ -327,6 +328,7 @@ export class ListContainers {
             ListKey: "accounts_BasicWithDefaultDraw",
         }
     }
+
     accounts_SelectionTypeMulti: any = { // 4.
         List: {
             Key: "accounts_SelectionTypeMulti",
@@ -345,8 +347,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 6
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Account Email",
@@ -355,8 +356,7 @@ export class ListContainers {
                                 FieldID: "Email",
                                 Width: 10
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Country",
@@ -365,8 +365,7 @@ export class ListContainers {
                                 FieldID: "Country",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "City",
@@ -375,8 +374,7 @@ export class ListContainers {
                                 FieldID: "City",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Type",
@@ -385,8 +383,7 @@ export class ListContainers {
                                 FieldID: "Type",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -397,6 +394,7 @@ export class ListContainers {
             ListKey: "accounts_SelectionTypeMulti",
         }
     }
+
     accounts_SelectionTypeSingle: any = { // 5.
         List: {
             Key: "accounts_SelectionTypeSingle",
@@ -415,8 +413,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 6
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Account Email",
@@ -425,8 +422,7 @@ export class ListContainers {
                                 FieldID: "Email",
                                 Width: 10
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Country",
@@ -435,8 +431,7 @@ export class ListContainers {
                                 FieldID: "Country",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "City",
@@ -445,8 +440,7 @@ export class ListContainers {
                                 FieldID: "City",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Type",
@@ -455,8 +449,7 @@ export class ListContainers {
                                 FieldID: "Type",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -467,6 +460,7 @@ export class ListContainers {
             ListKey: "accounts_SelectionTypeSingle",
         }
     }
+
     accounts_SelectionTypeNone: any = { // 6.
         List: {
             Key: "accounts_SelectionTypeNone",
@@ -485,8 +479,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 6
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Account Email",
@@ -495,8 +488,7 @@ export class ListContainers {
                                 FieldID: "Email",
                                 Width: 10
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Country",
@@ -505,8 +497,7 @@ export class ListContainers {
                                 FieldID: "Country",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "City",
@@ -515,8 +506,7 @@ export class ListContainers {
                                 FieldID: "City",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Type",
@@ -525,8 +515,7 @@ export class ListContainers {
                                 FieldID: "Type",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -537,6 +526,7 @@ export class ListContainers {
             ListKey: "accounts_SelectionTypeNone",
         }
     }
+
     accounts_Menu: any = { // 7.
         List: {
             Key: "accounts_Menu",
@@ -555,8 +545,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 6
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Account Email",
@@ -565,8 +554,7 @@ export class ListContainers {
                                 FieldID: "Email",
                                 Width: 10
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Country",
@@ -575,8 +563,7 @@ export class ListContainers {
                                 FieldID: "Country",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "City",
@@ -585,8 +572,7 @@ export class ListContainers {
                                 FieldID: "City",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Type",
@@ -595,8 +581,7 @@ export class ListContainers {
                                 FieldID: "Type",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -639,6 +624,7 @@ export class ListContainers {
             ListKey: "accounts_Menu",
         }
     }
+
     accounts_MenuHostingAddonFunc: any = { // 8.
         List: {
             Key: "accounts_MenuHostingAddonFunc",
@@ -657,8 +643,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 6
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Account Email",
@@ -667,8 +652,7 @@ export class ListContainers {
                                 FieldID: "Email",
                                 Width: 10
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Country",
@@ -677,8 +661,7 @@ export class ListContainers {
                                 FieldID: "Country",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "City",
@@ -687,8 +670,7 @@ export class ListContainers {
                                 FieldID: "City",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Type",
@@ -697,8 +679,7 @@ export class ListContainers {
                                 FieldID: "Type",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -726,6 +707,7 @@ export class ListContainers {
             ListKey: "accounts_MenuHostingAddonFunc",
         }
     }
+
     accounts_MenuFull: any = { // 9.
         List: {
             Key: "accounts_MenuFull",
@@ -744,8 +726,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 6
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Account Email",
@@ -754,8 +735,7 @@ export class ListContainers {
                                 FieldID: "Email",
                                 Width: 10
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Country",
@@ -764,8 +744,7 @@ export class ListContainers {
                                 FieldID: "Country",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "City",
@@ -774,8 +753,7 @@ export class ListContainers {
                                 FieldID: "City",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Type",
@@ -784,8 +762,7 @@ export class ListContainers {
                                 FieldID: "Type",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -842,6 +819,7 @@ export class ListContainers {
             ListKey: "accounts_MenuFull",
         }
     }
+
     accounts_LineMenu: any = { // 10.
         List: {
             Key: "accounts_LineMenu",
@@ -860,8 +838,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 6
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Account Email",
@@ -870,8 +847,7 @@ export class ListContainers {
                                 FieldID: "Email",
                                 Width: 10
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Country",
@@ -880,8 +856,7 @@ export class ListContainers {
                                 FieldID: "Country",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "City",
@@ -890,8 +865,7 @@ export class ListContainers {
                                 FieldID: "City",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Type",
@@ -900,8 +874,7 @@ export class ListContainers {
                                 FieldID: "Type",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -929,6 +902,7 @@ export class ListContainers {
             ListKey: "accounts_LineMenu",
         }
     }
+
     items_LineMenuSelectionTypeMulti: any = { // 11.
         List: {
             Key: "items_LineMenuSelectionTypeMulti",
@@ -947,8 +921,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "External ID",
@@ -957,8 +930,7 @@ export class ListContainers {
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Main Category",
@@ -967,8 +939,7 @@ export class ListContainers {
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Price",
@@ -977,8 +948,7 @@ export class ListContainers {
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Cost Price",
@@ -987,8 +957,7 @@ export class ListContainers {
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "UPC",
@@ -997,8 +966,7 @@ export class ListContainers {
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Description",
@@ -1007,8 +975,7 @@ export class ListContainers {
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -1037,6 +1004,7 @@ export class ListContainers {
             ListKey: "items_LineMenuSelectionTypeMulti",
         }
     }
+
     items_Search: any = { // 12.
         List: {
             Key: "items_Search",
@@ -1055,8 +1023,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "External ID",
@@ -1065,8 +1032,7 @@ export class ListContainers {
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Main Category",
@@ -1075,8 +1041,7 @@ export class ListContainers {
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Price",
@@ -1085,8 +1050,7 @@ export class ListContainers {
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Cost Price",
@@ -1139,6 +1103,7 @@ export class ListContainers {
             ListKey: "items_Search",
         }
     }
+
     accounts_SmartSearch: any = { // 13.
         List: {
             Key: "accounts_SmartSearch",
@@ -1217,6 +1182,7 @@ export class ListContainers {
             ListKey: "accounts_SmartSearch",
         }
     }
+
     accounts_SortingAscending: any = { // 14.
         List: {
             Key: "accounts_SortingAscending",
@@ -1275,8 +1241,6 @@ export class ListContainers {
                                 FieldID: "Type",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                     ],
                 },
@@ -1287,6 +1251,7 @@ export class ListContainers {
             ListKey: "accounts_SortingAscending",
         }
     }
+
     accounts_SortingDescending: any = { // 15.
         List: {
             Key: "accounts_SortingDescending",
@@ -1305,8 +1270,6 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 6
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Account Email",
@@ -1315,8 +1278,6 @@ export class ListContainers {
                                 FieldID: "Email",
                                 Width: 10
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Country",
@@ -1325,8 +1286,6 @@ export class ListContainers {
                                 FieldID: "Country",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "City",
@@ -1335,8 +1294,6 @@ export class ListContainers {
                                 FieldID: "City",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Type",
@@ -1345,8 +1302,6 @@ export class ListContainers {
                                 FieldID: "Type",
                                 Width: 5
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                     ],
                 },
@@ -1357,6 +1312,7 @@ export class ListContainers {
             ListKey: "accounts_SortingDescending",
         }
     }
+
     items_SearchString: any = { // 16.
         List: {
             Key: "items_SearchString",
@@ -1375,8 +1331,6 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "External ID",
@@ -1385,8 +1339,6 @@ export class ListContainers {
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Main Category",
@@ -1395,8 +1347,6 @@ export class ListContainers {
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Price",
@@ -1405,8 +1355,6 @@ export class ListContainers {
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Cost Price",
@@ -1415,8 +1363,6 @@ export class ListContainers {
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "UPC",
@@ -1425,8 +1371,6 @@ export class ListContainers {
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Description",
@@ -1435,8 +1379,6 @@ export class ListContainers {
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                     ],
                 },
@@ -1457,6 +1399,7 @@ export class ListContainers {
             SearchString: "MaNa"
         }
     }
+
     items_PageTypePages: any = { // 17.
         List: {
             Key: "items_PageTypePages",
@@ -1475,8 +1418,6 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "External ID",
@@ -1485,8 +1426,6 @@ export class ListContainers {
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Main Category",
@@ -1495,8 +1434,6 @@ export class ListContainers {
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Price",
@@ -1505,8 +1442,6 @@ export class ListContainers {
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Cost Price",
@@ -1515,8 +1450,6 @@ export class ListContainers {
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "UPC",
@@ -1525,8 +1458,6 @@ export class ListContainers {
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Description",
@@ -1535,8 +1466,6 @@ export class ListContainers {
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                     ],
                 },
@@ -1547,6 +1476,7 @@ export class ListContainers {
             PageType: "Pages", // "Pages" / "Scroll"
         }
     }
+
     items_PageTypePages_PageSize: any = { // 18.
         List: {
             Key: "items_PageTypePages_PageSize",
@@ -1565,8 +1495,6 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "External ID",
@@ -1575,8 +1503,6 @@ export class ListContainers {
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Main Category",
@@ -1585,8 +1511,6 @@ export class ListContainers {
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Price",
@@ -1595,8 +1519,6 @@ export class ListContainers {
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Cost Price",
@@ -1605,8 +1527,6 @@ export class ListContainers {
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "UPC",
@@ -1615,8 +1535,6 @@ export class ListContainers {
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Description",
@@ -1625,8 +1543,6 @@ export class ListContainers {
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                     ],
                 },
@@ -1638,6 +1554,7 @@ export class ListContainers {
             PageSize: 7,
         }
     }
+
     items_PageTypePages_PageIndex: any = { // 19.
         List: {
             Key: "items_PageTypePages_PageIndex",
@@ -1656,8 +1573,6 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "External ID",
@@ -1666,8 +1581,6 @@ export class ListContainers {
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Main Category",
@@ -1676,8 +1589,6 @@ export class ListContainers {
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Price",
@@ -1686,8 +1597,6 @@ export class ListContainers {
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Cost Price",
@@ -1696,8 +1605,6 @@ export class ListContainers {
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "UPC",
@@ -1706,8 +1613,6 @@ export class ListContainers {
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Description",
@@ -1716,8 +1621,6 @@ export class ListContainers {
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                     ],
                 },
@@ -1729,6 +1632,7 @@ export class ListContainers {
             PageIndex: 2,
         }
     }
+
     items_PageTypePages_TopScrollIndex: any = { // 20.
         List: {
             Key: "items_PageTypePages_TopScrollIndex",
@@ -1747,8 +1651,6 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "External ID",
@@ -1757,8 +1659,6 @@ export class ListContainers {
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Main Category",
@@ -1767,8 +1667,6 @@ export class ListContainers {
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Price",
@@ -1777,8 +1675,6 @@ export class ListContainers {
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Cost Price",
@@ -1787,8 +1683,6 @@ export class ListContainers {
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "UPC",
@@ -1797,8 +1691,6 @@ export class ListContainers {
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Description",
@@ -1807,8 +1699,6 @@ export class ListContainers {
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                     ],
                 },
@@ -1820,6 +1710,7 @@ export class ListContainers {
             TopScrollIndex: 10,
         }
     }
+
     items_PageTypePages_PageSizePageIndex: any = { // 21.
         List: {
             Key: "items_PageTypePages_PageSizePageIndex",
@@ -1838,8 +1729,6 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "External ID",
@@ -1848,8 +1737,6 @@ export class ListContainers {
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Main Category",
@@ -1858,8 +1745,6 @@ export class ListContainers {
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Price",
@@ -1868,8 +1753,6 @@ export class ListContainers {
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Cost Price",
@@ -1878,8 +1761,6 @@ export class ListContainers {
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "UPC",
@@ -1888,8 +1769,6 @@ export class ListContainers {
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Description",
@@ -1898,8 +1777,6 @@ export class ListContainers {
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                     ],
                 },
@@ -1912,6 +1789,7 @@ export class ListContainers {
             PageIndex: 2,
         }
     }
+
     items_PageTypePages_PageSizePageIndexTopScrollIndex: any = { // 22.
         List: {
             Key: "items_PageTypePages_PageSizePageIndexTopScrollIndex",
@@ -1930,8 +1808,6 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "External ID",
@@ -1940,8 +1816,6 @@ export class ListContainers {
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Main Category",
@@ -1950,8 +1824,6 @@ export class ListContainers {
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Price",
@@ -1960,8 +1832,6 @@ export class ListContainers {
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Cost Price",
@@ -1970,8 +1840,6 @@ export class ListContainers {
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "UPC",
@@ -1980,8 +1848,6 @@ export class ListContainers {
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
                         },
                         {
                             Title: "Description",
@@ -2005,6 +1871,7 @@ export class ListContainers {
             TopScrollIndex: 5,
         }
     }
+
     items_PageTypeScroll: any = { // 23.
         List: {
             Key: "items_PageTypeScroll",
@@ -2073,8 +1940,7 @@ export class ListContainers {
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Description",
@@ -2083,8 +1949,7 @@ export class ListContainers {
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -2095,6 +1960,7 @@ export class ListContainers {
             PageType: "Scroll", // "Pages" / "Scroll"
         }
     }
+
     items_PageTypeScroll_TopScrollIndex: any = { // 24.
         List: {
             Key: "items_PageTypeScroll_TopScrollIndex",
@@ -2113,8 +1979,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "External ID",
@@ -2123,8 +1988,7 @@ export class ListContainers {
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Main Category",
@@ -2133,8 +1997,7 @@ export class ListContainers {
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Price",
@@ -2143,8 +2006,7 @@ export class ListContainers {
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Cost Price",
@@ -2153,8 +2015,7 @@ export class ListContainers {
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "UPC",
@@ -2163,8 +2024,7 @@ export class ListContainers {
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Description",
@@ -2173,8 +2033,7 @@ export class ListContainers {
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -2186,6 +2045,7 @@ export class ListContainers {
             TopScrollIndex: 3,
         }
     }
+
     items_PageTypeScroll_PageIndex: any = { // 25.
         List: {
             Key: "items_PageTypeScroll_PageIndex",
@@ -2204,8 +2064,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "External ID",
@@ -2214,8 +2073,7 @@ export class ListContainers {
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Main Category",
@@ -2224,8 +2082,7 @@ export class ListContainers {
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Price",
@@ -2234,8 +2091,7 @@ export class ListContainers {
                                 FieldID: "Price",
                                 Width: 2
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Cost Price",
@@ -2244,8 +2100,7 @@ export class ListContainers {
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "UPC",
@@ -2254,8 +2109,7 @@ export class ListContainers {
                                 FieldID: "UPC",
                                 Width: 3
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "Description",
@@ -2264,8 +2118,7 @@ export class ListContainers {
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                     ],
                 },
@@ -2277,6 +2130,7 @@ export class ListContainers {
             PageIndex: 2,
         }
     }
+
     items_PageTypeScroll_PageIndexTopScrollIndex: any = { // 26.
         List: {
             Key: "items_PageTypeScroll_PageIndexTopScrollIndex",
@@ -2295,8 +2149,7 @@ export class ListContainers {
                                 FieldID: "Name",
                                 Width: 7
                             },
-                            DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: '0e2ae61b-a26a-4c26-81fe-13bdd2e4aaa3'
+
                         },
                         {
                             Title: "External ID",
@@ -2369,6 +2222,7 @@ export class ListContainers {
             TopScrollIndex: 10,
         }
     }
+
     items_PageTypeScroll_PageSizePageIndex: any = { // 27.
         List: {
             Key: "items_PageTypeScroll_PageSizePageIndex",
@@ -2461,6 +2315,7 @@ export class ListContainers {
             PageIndex: 2,
         }
     }
+
     items_PageTypeScroll_PageSizePageIndexTopScrollIndex: any = { // 28.
         List: {
             Key: "items_PageTypeScroll_PageSizePageIndexTopScrollIndex",
@@ -2554,6 +2409,7 @@ export class ListContainers {
             TopScrollIndex: 6,
         }
     }
+
     accounts_full: any = { // 29.
         List: {
             Key: "accounts_full",
@@ -2721,6 +2577,7 @@ export class ListContainers {
             SearchString: "a"
         }
     }
+
     items_Full2Views: any = { // 30.
         List: {
             Key: "items_Full2Views",
@@ -2893,6 +2750,7 @@ export class ListContainers {
             SearchString: "a"
         }
     }
+
     accounts_TestDrawGridRelation: any = { // 31.
         List: {
             Key: "accounts_TestDrawGridRelation",
@@ -2969,6 +2827,7 @@ export class ListContainers {
             ListKey: "accounts_TestDrawGridRelation",
         }
     }
+
     referenceAccount_2Views: any = { // 32.
         List: {
             Key: "referenceAccount_2Views",
@@ -3078,6 +2937,7 @@ export class ListContainers {
             PageType: "Scroll", // Default: "Pages" / "Scroll"
         }
     }
+
     filtersAccRef_2Views: any = { // 33.
         List: {
             Key: "filtersAccRef_2Views",
@@ -3314,6 +3174,7 @@ export class ListContainers {
             PageType: "Pages", // "Pages" / "Scroll"
         }
     }
+
     accounts_causedErrorInDrawFunc: any = { // 34.
         List: {
             Key: "accounts_causedErrorInDrawFunc",
@@ -3405,6 +3266,7 @@ export class ListContainers {
             ListKey: "accounts_causedErrorInDrawFunc",
         }
     }
+
     arraysOfPrimitives: any = { // 35.
         List: {
             Key: "arraysOfPrimitives",
@@ -3466,6 +3328,7 @@ export class ListContainers {
             ListKey: "arraysOfPrimitives",
         }
     }
+
     containedArray: any = { // 36.
         List: {
             Key: "containedArray",

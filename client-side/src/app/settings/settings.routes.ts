@@ -18,6 +18,10 @@ const routes: Routes = [
             {
                 path: 'view',
                 loadChildren: () => import('./rl-abi/rl-abi.module').then(m => m.ListPageBlockModule),
+            },
+            {
+                path: 'lists',
+                loadChildren: () => import('./lists-abi/lists-abi.module').then(m => m.ListPageBlockModule),
             }
         ]
     }

@@ -1,14 +1,19 @@
 import { Component, OnInit, ViewContainerRef } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { PepAddonBlockLoaderService } from '@pepperi-addons/ngx-lib/remote-loader';
-import { ListContainers } from './list_containers';
+import { ListContainers } from './lists_containers';
+
+
 @Component({
     selector: 'rl-abi',
     templateUrl: './rl-abi.component.html',
     styleUrls: ['./rl-abi.component.scss']
 })
+
 export class ListPageBlockComponent extends ListContainers implements OnInit {
+
     listABIDialogRef: MatDialogRef<any>;
+
     options: { key: string; value: string }[] = [
         { key: 'items_BasicView', value: '1. Items View - Basic' },
         { key: 'accounts_BasicView', value: '2. Accounts View - Basic' },
@@ -47,17 +52,22 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
         { key: 'arraysOfPrimitives', value: '35. Arrays Of Primitives - Test Draw Array' },
         { key: 'containedArray', value: '36. Contained Array - Test Draw Array' },
     ]
+
     chosenListContainer: string = 'items_BasicView'
+
     constructor(
         private addonBlockService: PepAddonBlockLoaderService,
         private viewContainerRef: ViewContainerRef
     ) {
         super()
     }
+
     ngOnInit(): void {
     }
+
     ngOnChanges() {
     }
+
     onOptionSelection(chosenKey) {
         console.log('chosenKey: ', chosenKey);
         this.chosenListContainer = chosenKey;
@@ -71,7 +81,7 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
             inDialog: true
         }
         this.listABIDialogRef = this.addonBlockService.loadAddonBlockInDialog({
-            name: 'List',
+            name: 'SelectionList',
             hostObject: hostObject,
             container: this.viewContainerRef,
             hostEventsCallback: (event) => {
@@ -80,8 +90,8 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
                         //debugger;
                         console.log('DONE CLICKED!');
                         console.info('event.data: ', JSON.stringify(event.data, null, 2));
-                        // alert(JSON.stringify(event.data, null, 2));
-                        this.listABIDialogRef.close(event.data);
+                        alert(JSON.stringify(event.data, null, 2));
+                        // this.listABIDialogRef.close(event.data);
                         break;
                     case 'on-cancel':
                         console.log('CANCEL CLICKED!');
