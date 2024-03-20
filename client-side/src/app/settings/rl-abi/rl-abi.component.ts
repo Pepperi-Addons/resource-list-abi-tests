@@ -81,7 +81,7 @@ export class ListPageBlockComponent extends ListContainers implements OnInit {
             inDialog: true
         }
         this.listABIDialogRef = this.addonBlockService.loadAddonBlockInDialog({
-            name: 'List',
+            name: 'SelectionList',
             hostObject: hostObject,
             container: this.viewContainerRef,
             hostEventsCallback: (event) => {
