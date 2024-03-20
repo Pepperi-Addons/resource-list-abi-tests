@@ -1,4 +1,4 @@
-export class ListContainers {
+export class ListsContainers {
     // shape: any = {
     //     List: {
     //         Key: "LIST_KEY",

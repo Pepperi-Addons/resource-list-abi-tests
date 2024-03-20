@@ -1,16 +1,16 @@
 import { Component, OnInit, ViewContainerRef } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { PepAddonBlockLoaderService } from '@pepperi-addons/ngx-lib/remote-loader';
-import { ListContainers } from './lists_containers';
+import { ListsContainers } from './lists_containers';
 
 
 @Component({
-    selector: 'rl-abi',
-    templateUrl: './rl-abi.component.html',
-    styleUrls: ['./rl-abi.component.scss']
+    selector: 'lists-abi',
+    templateUrl: './lists-abi.component.html',
+    styleUrls: ['./lists-abi.component.scss']
 })
 
-export class ListPageBlockComponent extends ListContainers implements OnInit {
+export class ListsPageBlockComponent extends ListsContainers implements OnInit {
 
     listABIDialogRef: MatDialogRef<any>;
 
