@@ -84,7 +84,7 @@ export class ListsContainers {
         List: {
             Key: "items_BasicView",
             Name: "Items Basic",
-            Resource: {Name: "items", AddonUUID: ""},
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items",
@@ -179,7 +179,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_BasicView",
             Name: "Accounts Basic",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -265,7 +265,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_BasicWithDefaultDraw",
             Name: "Accounts With Default Draw",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -333,7 +333,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_SelectionTypeMulti",
             Name: "Accounts Selection Type Multi",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -399,7 +399,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_SelectionTypeSingle",
             Name: "Accounts Selection Type Single",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -465,7 +465,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_SelectionTypeNone",
             Name: "Accounts Selection Type None",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -531,7 +531,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_Menu",
             Name: "Accounts With Menu",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -629,7 +629,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_MenuHostingAddonFunc",
             Name: "Accounts Menu With Hosting Addon functionality",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -712,7 +712,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_MenuFull",
             Name: "Accounts With Menu Full",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -824,7 +824,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_LineMenu",
             Name: "Accounts With Line Menu",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -907,7 +907,7 @@ export class ListsContainers {
         List: {
             Key: "items_LineMenuSelectionTypeMulti",
             Name: "Items with Line Menu (Selection Type 'Multi')",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Line Menu Selection Multi",
@@ -1009,7 +1009,7 @@ export class ListsContainers {
         List: {
             Key: "items_Search",
             Name: "Items With Search (Name, Category, Description)",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items",
@@ -1108,7 +1108,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_SmartSearch",
             Name: "Accounts With Smart Search (Name)",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -1187,7 +1187,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_SortingAscending",
             Name: "Accounts Sorting by Name Acsending",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -1256,7 +1256,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_SortingDescending",
             Name: "Accounts Sorting by Name Decsending",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -1317,7 +1317,7 @@ export class ListsContainers {
         List: {
             Key: "items_SearchString",
             Name: "Items - Search String",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items",
@@ -1404,7 +1404,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypePages",
             Name: "Items Page Type 'Pages'",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Page Type Pages",
@@ -1481,7 +1481,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypePages_PageSize",
             Name: "Items Page Type 'Pages' with Page Size",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Pages Page Size",
@@ -1559,7 +1559,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypePages_PageIndex",
             Name: "Items Page Type 'Pages' with Page Index",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Pages Page Index",
@@ -1637,7 +1637,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypePages_TopScrollIndex",
             Name: "Items Page Type 'Pages' with Top Scroll Index",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Pages Top Scroll Index",
@@ -1715,7 +1715,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypePages_PageSizePageIndex",
             Name: "Items Page Type 'Pages' with Page Size & Page Index",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Pages Page Size & Page Index",
@@ -1794,7 +1794,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypePages_PageSizePageIndexTopScrollIndex",
             Name: "Items Page Type 'Pages' with Page Size, Page Index and Top Scroll Index",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Pages Page Size Page Index Top Scroll Index",
@@ -1876,7 +1876,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypeScroll",
             Name: "Items Page Type 'Scroll'",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Page Type Scroll",
@@ -1965,7 +1965,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypeScroll_TopScrollIndex",
             Name: "Items: Page Type 'Scroll' with Top Scroll Index",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Scroll Top Scroll Index",
@@ -2050,7 +2050,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypeScroll_PageIndex",
             Name: "Items Page Type 'Scroll' with Page Index",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Scroll Page Index",
@@ -2135,7 +2135,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypeScroll_PageIndexTopScrollIndex",
             Name: "Items Page Type 'Scroll' with Page Index and Top Scroll Index",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Scroll Page Index Top Scroll Index",
@@ -2227,7 +2227,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypeScroll_PageSizePageIndex",
             Name: "Items Page Type 'Scroll' with Page Size and Page Index",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Scroll Page Size Page Index",
@@ -2320,7 +2320,7 @@ export class ListsContainers {
         List: {
             Key: "items_PageTypeScroll_PageSizePageIndexTopScrollIndex",
             Name: "Items Page Type 'Scroll' with Page Size, Page Index and Top Scroll Index",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items Scroll Page Size Page Index Top Scroll Index",
@@ -2414,7 +2414,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_full",
             Name: "Accounts Full",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts full",
@@ -2582,7 +2582,7 @@ export class ListsContainers {
         List: {
             Key: "items_Full2Views",
             Name: "Items Full - 2 Views",
-            Resource: "items",
+            Resource: { Name: "items", AddonUUID: "" },
             Views: [
                 {
                     Key: "Items First View",
@@ -2755,7 +2755,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_TestDrawGridRelation",
             Name: "Accounts Test Draw Grid Relation",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -2832,7 +2832,7 @@ export class ListsContainers {
         List: {
             Key: "referenceAccount_2Views",
             Name: "Reference Account",
-            Resource: "ReferenceAccountAuto",
+            Resource: { Name: "ReferenceAccountAuto", AddonUUID: "" },
             Views: [
                 {
                     Key: "reference accout best seller",
@@ -2942,7 +2942,7 @@ export class ListsContainers {
         List: {
             Key: "filtersAccRef_2Views",
             Name: "Filters Acc Ref ABI View",
-            Resource: "FiltersAccRefAuto",
+            Resource: { Name: "FiltersAccRefAuto", AddonUUID: "" },
             Views: [
                 {
                     Key: "account additional fields",
@@ -3179,7 +3179,7 @@ export class ListsContainers {
         List: {
             Key: "accounts_causedErrorInDrawFunc",
             Name: "Accounts - throw Error due to wrong AddonUUID",
-            Resource: "accounts",
+            Resource: { Name: "accounts", AddonUUID: "" },
             Views: [
                 {
                     Key: "Accounts",
@@ -3271,7 +3271,7 @@ export class ListsContainers {
         List: {
             Key: "arraysOfPrimitives",
             Name: "Arrays Of Primitives - Numbers, Names, Reals (Test Draw Array)",
-            Resource: "ArraysOfPrimitivesAuto",
+            Resource: { Name: "ArraysOfPrimitivesAuto", AddonUUID: "" },
             Views: [
                 {
                     Key: "Arrays Of Primitives",
@@ -3333,7 +3333,7 @@ export class ListsContainers {
         List: {
             Key: "containedArray",
             Name: "Contained Array - Scheme Only Name Age (Test Draw Array)",
-            Resource: "ContainedArray",
+            Resource: { Name: "ContainedArray", AddonUUID: "" },
             Views: [
                 {
                     Key: "Contained Array",
