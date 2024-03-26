@@ -323,6 +323,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "accounts_BasicWithDefaultDraw",
@@ -388,6 +400,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
             SelectionType: "Multi", // "Multi" / "None" / "Single"
         },
         State: {
@@ -454,6 +478,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
             SelectionType: "Single", // "Multi" / "None" / "Single"
         },
         State: {
@@ -520,6 +556,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
             SelectionType: "None", // "Multi" / "None" / "Single"
         },
         State: {
@@ -619,6 +667,15 @@ export class ListsContainers {
                     },
                 ]
             },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "accounts_Menu",
@@ -701,6 +758,15 @@ export class ListsContainers {
                         ExecuteURL: 'addon-cpi/menuExecutionGoHome'
                     },
                 ]
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
             },
         },
         State: {
@@ -814,6 +880,15 @@ export class ListsContainers {
                     },
                 ]
             },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "accounts_MenuFull",
@@ -879,6 +954,9 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
             LineMenu: {
                 Blocks: [
                     {
@@ -896,6 +974,12 @@ export class ListsContainers {
                         ExecuteURL: 'addon-cpi/menuExecution'
                     }
                 ]
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
             },
         },
         State: {
@@ -980,6 +1064,9 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
             LineMenu: {
                 Blocks: [
                     {
@@ -997,6 +1084,12 @@ export class ListsContainers {
                         ExecuteURL: 'addon-cpi/menuExecution'
                     }
                 ]
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
             },
             SelectionType: "Multi", // "Multi" / "None" / "Single"
         },
@@ -1085,6 +1178,12 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
             Search: {
                 Fields: [
                     {
@@ -1097,6 +1196,9 @@ export class ListsContainers {
                         FieldID: "LongDescription"
                     },
                 ]
+            },
+            SmartSearch: {
+                Fields: []
             },
         },
         State: {
@@ -1168,6 +1270,15 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
             SmartSearch: {
                 Fields: [
                     {
@@ -1245,6 +1356,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
             Sorting: { Ascending: true, FieldID: "Name" }
         },
         State: {
@@ -1306,6 +1429,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
             Sorting: { Ascending: false, FieldID: "Name" }
         },
         State: {
@@ -1383,6 +1518,12 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
             Search: {
                 Fields: [
                     {
@@ -1392,6 +1533,9 @@ export class ListsContainers {
                         FieldID: "ExternalID"
                     },
                 ]
+            },
+            SmartSearch: {
+                Fields: []
             },
         },
         State: {
@@ -1470,6 +1614,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypePages",
@@ -1547,6 +1703,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypePages_PageSize",
@@ -1625,6 +1793,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypePages_PageIndex",
@@ -1703,6 +1883,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypePages_TopScrollIndex",
@@ -1781,6 +1973,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypePages_PageSizePageIndex",
@@ -1862,6 +2066,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypePages_PageSizePageIndexTopScrollIndex",
@@ -1954,6 +2170,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypeScroll",
@@ -2038,6 +2266,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypeScroll_TopScrollIndex",
@@ -2123,6 +2363,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypeScroll_PageIndex",
@@ -2214,6 +2466,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypeScroll_PageIndexTopScrollIndex",
@@ -2307,6 +2571,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypeScroll_PageSizePageIndex",
@@ -2400,6 +2676,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "items_PageTypeScroll_PageSizePageIndexTopScrollIndex",
@@ -2820,6 +3108,12 @@ export class ListsContainers {
             },
             LineMenu: {
                 Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
             },
             SelectionType: "Multi", // "Multi" / "None" / "Single"
         },
@@ -3363,6 +3657,18 @@ export class ListsContainers {
                     ],
                 },
             ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: []
+            },
         },
         State: {
             ListKey: "containedArray",
