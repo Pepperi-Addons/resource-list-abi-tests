@@ -13,7 +13,7 @@ export class ListsContainers {
     //                     {
     //                         Title: "Account Key",
     //                         Configuration: {
-    //                             Type: "TextBox",
+    //                             Type: "String",
     //                             FieldID: "from_account",
     //                             Width: 15
     //                         },
@@ -189,7 +189,7 @@ export class ListsContainers {
                         {
                             Title: "Account Key",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Key",
                                 Width: 15
                             },
@@ -198,7 +198,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -207,7 +207,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -216,7 +216,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -225,7 +225,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -234,7 +234,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -275,7 +275,7 @@ export class ListsContainers {
                         {
                             Title: "Account Key",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Key",
                                 Width: 15
                             },
@@ -283,7 +283,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -291,7 +291,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -299,7 +299,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -307,7 +307,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -315,7 +315,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -343,7 +343,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -352,7 +352,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -361,7 +361,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -370,7 +370,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -379,7 +379,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -409,7 +409,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -418,7 +418,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -427,7 +427,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -436,7 +436,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -445,7 +445,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -475,7 +475,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -484,7 +484,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -493,7 +493,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -502,7 +502,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -511,7 +511,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -541,7 +541,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -550,7 +550,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -559,7 +559,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -568,7 +568,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -577,7 +577,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -639,7 +639,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -648,7 +648,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -657,7 +657,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -666,7 +666,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -675,7 +675,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -722,7 +722,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -731,7 +731,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -740,7 +740,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -749,7 +749,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -758,7 +758,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -834,7 +834,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -843,7 +843,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -852,7 +852,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -861,7 +861,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -870,7 +870,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -917,7 +917,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -926,7 +926,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -935,7 +935,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -944,7 +944,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -953,7 +953,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -962,7 +962,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -971,7 +971,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -1019,7 +1019,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -1028,7 +1028,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -1037,7 +1037,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -1046,7 +1046,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -1055,7 +1055,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -1065,7 +1065,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -1075,7 +1075,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -1118,7 +1118,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -1128,7 +1128,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -1138,7 +1138,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -1148,7 +1148,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -1158,7 +1158,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -1197,7 +1197,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -1207,7 +1207,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -1217,7 +1217,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -1227,7 +1227,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -1237,7 +1237,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -1266,7 +1266,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -1274,7 +1274,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -1282,7 +1282,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -1290,7 +1290,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -1298,7 +1298,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -1327,7 +1327,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -1335,7 +1335,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -1343,7 +1343,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -1351,7 +1351,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -1359,7 +1359,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -1367,7 +1367,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -1375,7 +1375,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -1414,7 +1414,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -1422,7 +1422,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -1430,7 +1430,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -1438,7 +1438,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -1446,7 +1446,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -1454,7 +1454,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -1462,7 +1462,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -1491,7 +1491,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -1499,7 +1499,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -1507,7 +1507,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -1515,7 +1515,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -1523,7 +1523,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -1531,7 +1531,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -1539,7 +1539,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -1569,7 +1569,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -1577,7 +1577,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -1585,7 +1585,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -1593,7 +1593,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -1601,7 +1601,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -1609,7 +1609,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -1617,7 +1617,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -1647,7 +1647,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -1655,7 +1655,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -1663,7 +1663,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -1671,7 +1671,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -1679,7 +1679,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -1687,7 +1687,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -1695,7 +1695,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -1725,7 +1725,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -1733,7 +1733,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -1741,7 +1741,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -1749,7 +1749,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -1757,7 +1757,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -1765,7 +1765,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -1773,7 +1773,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -1804,7 +1804,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -1812,7 +1812,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -1820,7 +1820,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -1828,7 +1828,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -1836,7 +1836,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -1844,7 +1844,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -1852,7 +1852,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -1886,7 +1886,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -1896,7 +1896,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -1906,7 +1906,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -1916,7 +1916,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -1926,7 +1926,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -1936,7 +1936,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -1945,7 +1945,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -1975,7 +1975,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -1984,7 +1984,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -1993,7 +1993,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -2002,7 +2002,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -2011,7 +2011,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -2020,7 +2020,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -2029,7 +2029,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -2060,7 +2060,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -2069,7 +2069,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -2078,7 +2078,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -2087,7 +2087,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -2096,7 +2096,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -2105,7 +2105,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -2114,7 +2114,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -2145,7 +2145,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -2154,7 +2154,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -2164,7 +2164,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -2174,7 +2174,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -2184,7 +2184,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -2194,7 +2194,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -2204,7 +2204,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -2237,7 +2237,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -2247,7 +2247,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -2257,7 +2257,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -2267,7 +2267,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -2277,7 +2277,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -2287,7 +2287,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -2297,7 +2297,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -2330,7 +2330,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -2340,7 +2340,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -2350,7 +2350,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -2360,7 +2360,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -2370,7 +2370,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -2380,7 +2380,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -2390,7 +2390,7 @@ export class ListsContainers {
                         {
                             Title: "Description",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "LongDescription",
                                 Width: 15
                             },
@@ -2424,7 +2424,7 @@ export class ListsContainers {
                         {
                             Title: "Account Key",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Key",
                                 Width: 15
                             },
@@ -2434,7 +2434,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -2444,7 +2444,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -2454,7 +2454,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -2464,7 +2464,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -2474,7 +2474,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -2592,7 +2592,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -2600,7 +2600,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -2608,7 +2608,7 @@ export class ListsContainers {
                         {
                             Title: "Main Category",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "MainCategory",
                                 Width: 4
                             },
@@ -2623,7 +2623,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -2633,7 +2633,7 @@ export class ListsContainers {
                         {
                             Title: "External ID",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "ExternalID",
                                 Width: 4
                             },
@@ -2643,7 +2643,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Price",
                                 Width: 2
                             },
@@ -2653,7 +2653,7 @@ export class ListsContainers {
                         {
                             Title: "Cost Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "CostPrice",
                                 Width: 3
                             },
@@ -2663,7 +2663,7 @@ export class ListsContainers {
                         {
                             Title: "UPC",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "UPC",
                                 Width: 3
                             },
@@ -2765,7 +2765,7 @@ export class ListsContainers {
                         {
                             Title: "Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 7
                             },
@@ -2775,7 +2775,7 @@ export class ListsContainers {
                         {
                             Title: "Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 15
                             },
@@ -2785,7 +2785,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 3
                             },
@@ -2795,7 +2795,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 2
                             },
@@ -2805,7 +2805,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 2
                             },
@@ -2842,7 +2842,7 @@ export class ListsContainers {
                         {
                             Title: "Account Key",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "of_account",
                                 Width: 15
                             },
@@ -2850,7 +2850,7 @@ export class ListsContainers {
                         {
                             Title: "Best Seller Item",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "best_seller_item",
                                 Width: 15
                             },
@@ -2865,7 +2865,7 @@ export class ListsContainers {
                         {
                             Title: "Account Key",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "of_account",
                                 Width: 15
                             },
@@ -2875,7 +2875,7 @@ export class ListsContainers {
                         {
                             Title: "Max Quantity",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "max_quantity",
                                 Width: 15
                             },
@@ -2952,7 +2952,7 @@ export class ListsContainers {
                         {
                             Title: "Item",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "item",
                                 Width: 5
                             },
@@ -2960,7 +2960,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "price",
                                 Width: 5
                             },
@@ -2968,7 +2968,7 @@ export class ListsContainers {
                         {
                             Title: "Quantity",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "quantity",
                                 Width: 6
                             },
@@ -2976,7 +2976,7 @@ export class ListsContainers {
                         {
                             Title: "In Stock",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "instock",
                                 Width: 2
                             },
@@ -2984,7 +2984,7 @@ export class ListsContainers {
                         {
                             Title: "Account Key",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "from_account",
                                 Width: 12
                             },
@@ -2992,7 +2992,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "from_account.Name",
                                 Width: 6
                             },
@@ -3000,7 +3000,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "from_account.Email",
                                 Width: 10
                             },
@@ -3015,7 +3015,7 @@ export class ListsContainers {
                         {
                             Title: "Account Key",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "from_account",
                                 Width: 10
                             },
@@ -3025,7 +3025,7 @@ export class ListsContainers {
                         {
                             Title: "Item",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "item",
                                 Width: 10
                             },
@@ -3035,7 +3035,7 @@ export class ListsContainers {
                         {
                             Title: "Price",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "price",
                                 Width: 10
                             },
@@ -3045,7 +3045,7 @@ export class ListsContainers {
                         {
                             Title: "Quantity",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "quantity",
                                 Width: 10
                             },
@@ -3055,7 +3055,7 @@ export class ListsContainers {
                         {
                             Title: "In Stock",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "instock",
                                 Width: 10
                             },
@@ -3189,7 +3189,7 @@ export class ListsContainers {
                         {
                             Title: "Account Key",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Key",
                                 Width: 15
                             },
@@ -3199,7 +3199,7 @@ export class ListsContainers {
                         {
                             Title: "Account Name",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Name",
                                 Width: 6
                             },
@@ -3209,7 +3209,7 @@ export class ListsContainers {
                         {
                             Title: "Account Email",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Email",
                                 Width: 10
                             },
@@ -3219,7 +3219,7 @@ export class ListsContainers {
                         {
                             Title: "Country",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Country",
                                 Width: 5
                             },
@@ -3229,7 +3229,7 @@ export class ListsContainers {
                         {
                             Title: "City",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "City",
                                 Width: 5
                             },
@@ -3239,7 +3239,7 @@ export class ListsContainers {
                         {
                             Title: "Type",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "Type",
                                 Width: 5
                             },
@@ -3281,7 +3281,7 @@ export class ListsContainers {
                         {
                             Title: "Numbers",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "numbers",
                                 Width: 10
                             },
@@ -3291,7 +3291,7 @@ export class ListsContainers {
                         {
                             Title: "Names",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "names",
                                 Width: 10
                             },
@@ -3301,7 +3301,7 @@ export class ListsContainers {
                         {
                             Title: "Reals",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "reals",
                                 Width: 10
                             },
@@ -3343,7 +3343,7 @@ export class ListsContainers {
                         {
                             Title: "Title",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "title",
                                 Width: 5
                             },
@@ -3353,7 +3353,7 @@ export class ListsContainers {
                         {
                             Title: "Contained Scheme Only Name Age",
                             Configuration: {
-                                Type: "TextBox",
+                                Type: "String",
                                 FieldID: "contained_scheme_only_name_age",
                                 Width: 15
                             },
