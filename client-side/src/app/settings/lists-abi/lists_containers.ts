@@ -3627,7 +3627,7 @@ export class ListsContainers {
         List: {
             Key: "containedArray",
             Name: "Contained Array - Scheme Only Name Age (Test Draw Array)",
-            Resource: { Name: "ContainedArray", AddonUUID: "" },
+            Resource: { Name: "ContainedArrayAuto", AddonUUID: "" },
             Views: [
                 {
                     Key: "Contained Array",
@@ -3675,5 +3675,199 @@ export class ListsContainers {
         }
     }
 
-    // https://pepperi.atlassian.net/browse/DI-24421 - to create a container 37 of IndexedFieldsAuto
+    indexedFields: any = { // 37.
+        List: {
+            Key: "indexedFields",
+            Name: "Indexed Fields - Item (String), Price (Double), Quantity (Integer), In-stock (Boolean)",
+            Resource: { Name: "IndexedFieldsAuto", AddonUUID: "" },
+            Views: [
+                {
+                    Key: "Indexed Fields",
+                    Type: "Grid",
+                    Title: "Indexed Fields",
+                    Blocks: [
+                        {
+                            Title: "Item",
+                            Configuration: {
+                                Type: "String",
+                                FieldID: "item",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                        {
+                            Title: "Price",
+                            Configuration: {
+                                Type: "Double",
+                                FieldID: "price",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                        {
+                            Title: "Quantity",
+                            Configuration: {
+                                Type: "Integer",
+                                FieldID: "quantity",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                        {
+                            Title: "In Stock",
+                            Configuration: {
+                                Type: "Bool",
+                                FieldID: "instock",
+                                Width: 5
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                    ],
+                },
+            ],
+            Menu: {
+                Blocks: []
+            },
+            LineMenu: {
+                Blocks: []
+            },
+            Search: {
+                Fields: []
+            },
+            SmartSearch: {
+                Fields: [
+                    {
+                        FieldID: "item",
+                        Title: "Item",
+                        Type: "String"
+                    },
+                    {
+                        FieldID: "price",
+                        Title: "Price",
+                        Type: "Double"
+                    },
+                    {
+                        FieldID: "quantity",
+                        Title: "Quantity",
+                        Type: "Integer"
+                    },
+                    {
+                        FieldID: "instock",
+                        Title: "In Stock",
+                        Type: "Bool"
+                    },
+                ]
+            },
+        },
+        State: {
+            ListKey: "indexedFields",
+        }
+    }
+
+    referenceAccount_1View: any = { // 38.
+        List: {
+            Key: "referenceAccount_1View",
+            Name: "Reference Account Single View",
+            Resource: { Name: "ReferenceAccountAuto", AddonUUID: "" },
+            Views: [
+                {
+                    Key: "reference accout max quantity",
+                    Type: "Grid", // "Cards"
+                    Title: "Max Quantity",
+                    Blocks: [
+                        {
+                            Title: "Account Key",
+                            Configuration: {
+                                Type: "String",
+                                FieldID: "of_account",
+                                Width: 15
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                        {
+                            Title: "Account Name",
+                            Configuration: {
+                                Type: "String",
+                                FieldID: "of_account.Name",
+                                Width: 15
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                        {
+                            Title: "Max Quantity",
+                            Configuration: {
+                                Type: "Integer",
+                                FieldID: "max_quantity",
+                                Width: 15
+                            },
+                            DrawURL: 'addon-cpi/drawGrid',
+                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                        },
+                        {
+                            Title: "Best Seller Item",
+                            Configuration: {
+                                Type: "String",
+                                FieldID: "best_seller_item",
+                                Width: 15
+                            },
+                        },
+                    ],
+                },
+            ],
+            Menu: {
+                Blocks: [
+                    {
+                        Key: 'recycleBin',
+                        Title: 'Recycle Bin',
+                        DrawURL: 'addon-cpi/drawRecycleBinMenuBlock',
+                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        ExecuteURL: 'addon-cpi/menuExecution'
+                    },
+                ]
+            },
+            LineMenu: {
+                Blocks: [
+                    {
+                        Key: "delete",
+                        Title: "Delete",
+                        DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
+                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        ExecuteURL: 'addon-cpi/menuExecution'
+                    },
+                ]
+            },
+            Search: {
+                Fields: [
+                    {
+                        FieldID: "max_quantity"
+                    },
+                ]
+            },
+            SmartSearch: {
+                Fields: [
+                    {
+                        FieldID: "of_account.Name",
+                        Title: "Account Name",
+                        Type: "String"
+                    },
+                    {
+                        FieldID: "of_account",
+                        Title: "Account Key",
+                        Type: "String"
+                    },
+                ]
+            },
+            SelectionType: "Single", // Default: "Single" / "Multi" / "None" 
+        },
+        State: {
+            ListKey: "referenceAccount_1View",
+            PageSize: 7, // Default: 25
+        }
+    }
 }
