@@ -71,7 +71,7 @@ router.post('/drawReloadListTest', (req, res) => {
     return res.json({
         Result: [
             {
-                Key: 'ReloadListTest',
+                Key: 'test reload',
                 Title: 'Reload Calls CPI - test',
                 DrawURL: 'addon-cpi/drawReloadListTest',
                 AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
@@ -89,7 +89,7 @@ router.post('/drawRefreshListTest', (req, res) => {
     return res.json({
         Result: [
             {
-                Key: 'RefreshListTest',
+                Key: 'test refresh',
                 Title: 'Refresh DO NOT Call CPI - test',
                 DrawURL: 'addon-cpi/drawRefreshListTest',
                 AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
