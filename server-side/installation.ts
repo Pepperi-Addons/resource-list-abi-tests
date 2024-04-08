@@ -23,13 +23,16 @@ export async function install(client: Client, request: Request): Promise<any> {
 }
 
 export async function uninstall(client: Client, request: Request): Promise<any> {
-    return {success:true,resultObject:{}}
+    return { success: true, resultObject: {} }
 }
 
 export async function upgrade(client: Client, request: Request): Promise<any> {
-    return {success:true,resultObject:{}}
+    const service = new RelationsService(client);
+    await service.upsertListMenuBlockRelation('test reload', 'Reload List', 'addon-cpi/drawReloadListTest', 'addon-cpi/menuExecutionReloadListTest');
+    await service.upsertListMenuBlockRelation('test refresh', 'Refresh List', 'addon-cpi/drawRefreshListTest', 'addon-cpi/menuExecutionRefreshListTest');
+    return { success: true, resultObject: {} }
 }
 
 export async function downgrade(client: Client, request: Request): Promise<any> {
-    return {success:true,resultObject:{}}
+    return { success: true, resultObject: {} }
 }

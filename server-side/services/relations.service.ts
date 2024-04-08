@@ -85,6 +85,8 @@ export class RelationsService {
         const blockRelationName = 'RL_ABI';
         const blockRelationDescription = 'Resource List ABI';
         await this.upsertSettingsRelation(blockRelationSlugName, blockRelationGroupName, blockRelationName, blockRelationDescription);
+        await this.upsertListMenuBlockRelation('test reload', 'Reload List', 'addon-cpi/drawReloadListTest', 'addon-cpi/menuExecutionReloadListTest');
+        await this.upsertListMenuBlockRelation('test refresh', 'Refresh List', 'addon-cpi/drawRefreshListTest', 'addon-cpi/menuExecutionRefreshListTest');
 
         // For page block use this.
         // // TODO: change to block name (this is the unique relation name and the description that will be on the block).
@@ -95,5 +97,24 @@ export class RelationsService {
         // // TODO: change to block name (this is the unique relation name and the description that will be on the block).
         // const blockRelationName = 'CHANGE_TO_BLOCK_RELATION_NAME';
         // await this.upsertBlockRelation(blockRelationName, false);
+    }
+
+    async upsertListMenuBlockRelation(fieldID: string, name: string, drawURL: string, executeURL: string){
+        try {
+            const relation: Relation = {
+                FieldID: fieldID,
+                AddonUUID: "cd3ba412-66a4-42f4-8abc-65768c5dc606",
+                AddonRelativeURL: '',
+                RelationName: "ListMenuBlock",
+                Name: name,
+                DrawURL: drawURL,
+                ExecuteURL: executeURL,
+                Type: "AddonAPI",
+            }
+            return await this.upsertRelation(relation)
+        }
+        catch (err){
+            throw (`error when upsert ${name} list menu block relations. error: ${err}`)
+        }
     }
 }

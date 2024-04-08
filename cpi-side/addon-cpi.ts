@@ -66,3 +66,39 @@ router.post('/testDrawGrid', (req, res) => {
     })
     return res.json({ Data: grid })
 });
+
+router.post('/drawReloadListTest', (req, res) => {
+    return res.json({
+        Result: [
+            {
+                Key: 'ReloadListTest',
+                Title: 'Reload Calls CPI - test',
+                DrawURL: 'addon-cpi/drawReloadListTest',
+                AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                ExecuteURL: 'addon-cpi/menuExecutionReloadListTest'
+            }
+        ]
+    })
+});
+
+router.post('/menuExecutionReloadListTest', (req, res) => {
+    return res.json({ State: { ...req.body.State }, Actions: [{ Type: "Reload" }] });
+});
+
+router.post('/drawRefreshListTest', (req, res) => {
+    return res.json({
+        Result: [
+            {
+                Key: 'RefreshListTest',
+                Title: 'Refresh DO NOT Call CPI - test',
+                DrawURL: 'addon-cpi/drawRefreshListTest',
+                AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                ExecuteURL: 'addon-cpi/menuExecutionRefreshListTest'
+            }
+        ]
+    })
+});
+
+router.post('/menuExecutionRefreshListTest', (req, res) => {
+    return res.json({ State: { ...req.body.State }, Actions: [{ Type: "Refresh" }] });
+});
