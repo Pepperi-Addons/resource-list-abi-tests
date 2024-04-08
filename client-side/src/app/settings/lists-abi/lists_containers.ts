@@ -18,7 +18,7 @@ export class ListsContainers {
     //                             Width: 15
     //                         },
     //                         // DrawURL: 'addon-cpi/drawGrid',
-    //                         // AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+    //                         // AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
     //                     },
     //                 ],
     //             },
@@ -29,7 +29,7 @@ export class ListsContainers {
     //                     Key: 'recycleBin',
     //                     Title: 'Recycle Bin',
     //                     DrawURL: 'addon-cpi/drawRecycleBinMenuBlock',
-    //                     AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+    //                     AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
     //                     ExecuteURL: 'addon-cpi/menuExecution'
     //                 },
     //             ]
@@ -40,7 +40,7 @@ export class ListsContainers {
     //                     Key: "delete",
     //                     Title: "Delete",
     //                     DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
-    //                     AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+    //                     AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
     //                     ExecuteURL: 'addon-cpi/menuExecution'
     //                 },
     //             ]
@@ -640,28 +640,28 @@ export class ListsContainers {
                         Key: 'recycleBin',
                         Title: 'Recycle Bin',
                         DrawURL: 'addon-cpi/drawRecycleBinMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'import',
                         Title: 'Import',
                         DrawURL: 'addon-cpi/drawImportMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'export',
                         Title: 'Export',
                         DrawURL: 'addon-cpi/drawExportMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'new',
                         Title: 'New',
                         DrawURL: 'addon-cpi/drawNewButtonMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ButtonStyleType: "Strong",
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
@@ -747,14 +747,14 @@ export class ListsContainers {
                         Key: 'test',
                         Title: 'Test',
                         DrawURL: 'addon-cpi/drawTest',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecutionTest'
                     },
                     {
                         Key: 'navigateHome',
                         Title: 'Go To Home Page',
                         DrawURL: 'addon-cpi/drawNavigateHome',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecutionGoHome'
                     },
                 ]
@@ -839,42 +839,42 @@ export class ListsContainers {
                         Key: 'recycleBin',
                         Title: 'Recycle Bin',
                         DrawURL: 'addon-cpi/drawRecycleBinMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'import',
                         Title: 'Import',
                         DrawURL: 'addon-cpi/drawImportMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'export',
                         Title: 'Export',
                         DrawURL: 'addon-cpi/drawExportMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'test',
                         Title: 'Test',
                         DrawURL: 'addon-cpi/drawTest',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecutionTest'
                     },
                     {
                         Key: 'navigateHome',
                         Title: 'Go To Home Page',
                         DrawURL: 'addon-cpi/drawNavigateHome',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecutionGoHome'
                     },
                     {
                         Key: 'new',
                         Title: 'New',
                         DrawURL: 'addon-cpi/drawNewButtonMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ButtonStyleType: "Strong",
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
@@ -963,14 +963,14 @@ export class ListsContainers {
                         Key: "delete",
                         Title: "Delete",
                         DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: "edit",
                         Title: "Edit",
                         DrawURL: 'addon-cpi/drawEditLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     }
                 ]
@@ -1073,14 +1073,14 @@ export class ListsContainers {
                         Key: "delete",
                         Title: "Delete",
                         DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: "edit",
                         Title: "Edit",
                         DrawURL: 'addon-cpi/drawEditLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     }
                 ]
@@ -1153,7 +1153,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "UPC",
@@ -1163,7 +1163,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Description",
@@ -1173,7 +1173,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -1225,7 +1225,7 @@ export class ListsContainers {
                                 Width: 6
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Account Email",
@@ -1235,7 +1235,7 @@ export class ListsContainers {
                                 Width: 10
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Country",
@@ -1245,7 +1245,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "City",
@@ -1255,7 +1255,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Type",
@@ -1265,7 +1265,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -1313,7 +1313,7 @@ export class ListsContainers {
                                 Width: 6
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Account Email",
@@ -1323,7 +1323,7 @@ export class ListsContainers {
                                 Width: 10
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Country",
@@ -1333,7 +1333,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "City",
@@ -1343,7 +1343,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Type",
@@ -2061,7 +2061,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -2107,7 +2107,7 @@ export class ListsContainers {
                                 Width: 7
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "External ID",
@@ -2117,7 +2117,7 @@ export class ListsContainers {
                                 Width: 4
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Main Category",
@@ -2127,7 +2127,7 @@ export class ListsContainers {
                                 Width: 4
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Price",
@@ -2137,7 +2137,7 @@ export class ListsContainers {
                                 Width: 2
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Cost Price",
@@ -2147,7 +2147,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "UPC",
@@ -2411,7 +2411,7 @@ export class ListsContainers {
                                 Width: 4
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Main Category",
@@ -2421,7 +2421,7 @@ export class ListsContainers {
                                 Width: 4
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Price",
@@ -2431,7 +2431,7 @@ export class ListsContainers {
                                 Width: 2
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Cost Price",
@@ -2441,7 +2441,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "UPC",
@@ -2451,7 +2451,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Description",
@@ -2461,7 +2461,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -2506,7 +2506,7 @@ export class ListsContainers {
                                 Width: 7
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "External ID",
@@ -2516,7 +2516,7 @@ export class ListsContainers {
                                 Width: 4
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Main Category",
@@ -2526,7 +2526,7 @@ export class ListsContainers {
                                 Width: 4
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Price",
@@ -2536,7 +2536,7 @@ export class ListsContainers {
                                 Width: 2
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Cost Price",
@@ -2546,7 +2546,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "UPC",
@@ -2556,7 +2556,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Description",
@@ -2566,7 +2566,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -2611,7 +2611,7 @@ export class ListsContainers {
                                 Width: 7
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "External ID",
@@ -2621,7 +2621,7 @@ export class ListsContainers {
                                 Width: 4
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Main Category",
@@ -2631,7 +2631,7 @@ export class ListsContainers {
                                 Width: 4
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Price",
@@ -2641,7 +2641,7 @@ export class ListsContainers {
                                 Width: 2
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Cost Price",
@@ -2651,7 +2651,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "UPC",
@@ -2661,7 +2661,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Description",
@@ -2671,7 +2671,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -2717,7 +2717,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Account Name",
@@ -2727,7 +2727,7 @@ export class ListsContainers {
                                 Width: 6
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Account Email",
@@ -2737,7 +2737,7 @@ export class ListsContainers {
                                 Width: 10
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Country",
@@ -2747,7 +2747,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "City",
@@ -2757,7 +2757,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Type",
@@ -2767,7 +2767,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -2778,42 +2778,42 @@ export class ListsContainers {
                         Key: 'recycleBin',
                         Title: 'Recycle Bin',
                         DrawURL: 'addon-cpi/drawRecycleBinMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'import',
                         Title: 'Import',
                         DrawURL: 'addon-cpi/drawImportMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'export',
                         Title: 'Export',
                         DrawURL: 'addon-cpi/drawExportMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'test',
                         Title: 'Test',
                         DrawURL: 'addon-cpi/drawTest',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecutionTest'
                     },
                     {
                         Key: 'navigateHome',
                         Title: 'Go To Home Page',
                         DrawURL: 'addon-cpi/drawNavigateHome',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecutionGoHome'
                     },
                     {
                         Key: 'new',
                         Title: 'New',
                         DrawURL: 'addon-cpi/drawNewButtonMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ButtonStyleType: "Strong",
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
@@ -2825,14 +2825,14 @@ export class ListsContainers {
                         Key: "delete",
                         Title: "Delete",
                         DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: "edit",
                         Title: "Edit",
                         DrawURL: 'addon-cpi/drawEditLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     }
                 ]
@@ -2916,7 +2916,7 @@ export class ListsContainers {
                                 Width: 7
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "External ID",
@@ -2926,7 +2926,7 @@ export class ListsContainers {
                                 Width: 4
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Price",
@@ -2936,7 +2936,7 @@ export class ListsContainers {
                                 Width: 2
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Cost Price",
@@ -2946,7 +2946,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "UPC",
@@ -2956,7 +2956,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -2967,21 +2967,21 @@ export class ListsContainers {
                         Key: 'test',
                         Title: 'Test',
                         DrawURL: 'addon-cpi/drawTest',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecutionTest'
                     },
                     {
                         Key: 'navigateHome',
                         Title: 'Go To Home Page',
                         DrawURL: 'addon-cpi/drawNavigateHome',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecutionGoHome'
                     },
                     {
                         Key: 'new',
                         Title: 'New',
                         DrawURL: 'addon-cpi/drawNewButtonMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ButtonStyleType: "Strong",
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
@@ -2993,14 +2993,14 @@ export class ListsContainers {
                         Key: "delete",
                         Title: "Delete",
                         DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: "edit",
                         Title: "Edit",
                         DrawURL: 'addon-cpi/drawEditLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     }
                 ]
@@ -3058,7 +3058,7 @@ export class ListsContainers {
                                 Width: 7
                             },
                             DrawURL: 'addon-cpi/testDrawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Email",
@@ -3068,7 +3068,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/testDrawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Country",
@@ -3078,7 +3078,7 @@ export class ListsContainers {
                                 Width: 3
                             },
                             DrawURL: 'addon-cpi/testDrawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "City",
@@ -3088,7 +3088,7 @@ export class ListsContainers {
                                 Width: 2
                             },
                             DrawURL: 'addon-cpi/testDrawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Type",
@@ -3098,7 +3098,7 @@ export class ListsContainers {
                                 Width: 2
                             },
                             DrawURL: 'addon-cpi/testDrawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -3164,7 +3164,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Max Quantity",
@@ -3174,7 +3174,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -3185,7 +3185,7 @@ export class ListsContainers {
                         Key: 'recycleBin',
                         Title: 'Recycle Bin',
                         DrawURL: 'addon-cpi/drawRecycleBinMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                 ]
@@ -3196,7 +3196,7 @@ export class ListsContainers {
                         Key: "delete",
                         Title: "Delete",
                         DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                 ]
@@ -3314,7 +3314,7 @@ export class ListsContainers {
                                 Width: 10
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Item",
@@ -3324,7 +3324,7 @@ export class ListsContainers {
                                 Width: 10
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Price",
@@ -3334,7 +3334,7 @@ export class ListsContainers {
                                 Width: 10
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Quantity",
@@ -3344,7 +3344,7 @@ export class ListsContainers {
                                 Width: 10
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "In Stock",
@@ -3354,7 +3354,7 @@ export class ListsContainers {
                                 Width: 10
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 }
@@ -3365,42 +3365,42 @@ export class ListsContainers {
                         Key: 'recycleBin',
                         Title: 'Recycle Bin',
                         DrawURL: 'addon-cpi/drawRecycleBinMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'import',
                         Title: 'Import',
                         DrawURL: 'addon-cpi/drawImportMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'export',
                         Title: 'Export',
                         DrawURL: 'addon-cpi/drawExportMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: 'test',
                         Title: 'Test',
                         DrawURL: 'addon-cpi/drawTest',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecutionTest'
                     },
                     {
                         Key: 'navigateHome',
                         Title: 'Go To Home Page',
                         DrawURL: 'addon-cpi/drawNavigateHome',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecutionGoHome'
                     },
                     {
                         Key: 'new',
                         Title: 'New',
                         DrawURL: 'addon-cpi/drawNewButtonMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ButtonStyleType: "Strong",
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
@@ -3412,14 +3412,14 @@ export class ListsContainers {
                         Key: "delete",
                         Title: "Delete",
                         DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                     {
                         Key: "edit",
                         Title: "Edit",
                         DrawURL: 'addon-cpi/drawEditLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     }
                 ]
@@ -3580,7 +3580,7 @@ export class ListsContainers {
                                 Width: 10
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Names",
@@ -3590,7 +3590,7 @@ export class ListsContainers {
                                 Width: 10
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Reals",
@@ -3600,7 +3600,7 @@ export class ListsContainers {
                                 Width: 10
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -3642,7 +3642,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Contained Scheme Only Name Age",
@@ -3652,7 +3652,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -3694,7 +3694,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Price",
@@ -3704,7 +3704,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Quantity",
@@ -3714,7 +3714,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "In Stock",
@@ -3724,7 +3724,7 @@ export class ListsContainers {
                                 Width: 5
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                     ],
                 },
@@ -3787,7 +3787,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Account Name",
@@ -3797,7 +3797,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Max Quantity",
@@ -3807,7 +3807,7 @@ export class ListsContainers {
                                 Width: 15
                             },
                             DrawURL: 'addon-cpi/drawGrid',
-                            AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606'
+                            AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45'
                         },
                         {
                             Title: "Best Seller Item",
@@ -3826,7 +3826,7 @@ export class ListsContainers {
                         Key: 'recycleBin',
                         Title: 'Recycle Bin',
                         DrawURL: 'addon-cpi/drawRecycleBinMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                 ]
@@ -3837,7 +3837,7 @@ export class ListsContainers {
                         Key: "delete",
                         Title: "Delete",
                         DrawURL: 'addon-cpi/drawDeleteLineMenuBlock',
-                        AddonUUID: 'cd3ba412-66a4-42f4-8abc-65768c5dc606',
+                        AddonUUID: 'c7928eb4-d931-43bb-83c6-90e939667b45',
                         ExecuteURL: 'addon-cpi/menuExecution'
                     },
                 ]
