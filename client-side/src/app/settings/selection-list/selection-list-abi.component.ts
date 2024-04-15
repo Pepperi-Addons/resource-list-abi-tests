@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewContainerRef } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { PepAddonBlockLoaderService } from '@pepperi-addons/ngx-lib/remote-loader';
-import { ListsContainers } from './lists_containers';
+import { Containers } from './containers';
 
 
 @Component({
@@ -10,7 +10,7 @@ import { ListsContainers } from './lists_containers';
     styleUrls: ['./lists-abi.component.scss']
 })
 
-export class ListsPageBlockComponent extends ListsContainers implements OnInit {
+export class SelectionListPageBlockComponent extends Containers implements OnInit {
 
     listABIDialogRef: MatDialogRef<any>;
 
@@ -83,7 +83,7 @@ export class ListsPageBlockComponent extends ListsContainers implements OnInit {
             inDialog: true
         }
         this.listABIDialogRef = this.addonBlockService.loadAddonBlockInDialog({
-            name: 'Lists',
+            name: 'SelectionList',
             hostObject: hostObject,
             container: this.viewContainerRef,
             hostEventsCallback: (event) => {

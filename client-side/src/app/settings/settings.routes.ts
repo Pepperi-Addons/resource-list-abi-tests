@@ -22,6 +22,10 @@ const routes: Routes = [
             {
                 path: 'lists',
                 loadChildren: () => import('./lists-abi/lists-abi.module').then(m => m.ListsPageBlockModule),
+            },
+            {
+                path: 'selection_list',
+                loadChildren: () => import('./selection-list/selection-list-abi.module').then(m => m.SelectionListPageBlockModule),
             }
         ]
     }
