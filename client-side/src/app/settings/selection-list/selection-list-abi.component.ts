@@ -5,9 +5,9 @@ import { Containers } from './containers';
 
 
 @Component({
-    selector: 'lists-abi',
-    templateUrl: './lists-abi.component.html',
-    styleUrls: ['./lists-abi.component.scss']
+    selector: 'selection-list-abi',
+    templateUrl: './selection-list-abi.component.html',
+    styleUrls: ['./selection-list-abi.component.scss']
 })
 
 export class SelectionListPageBlockComponent extends Containers implements OnInit {
